@@ -1,0 +1,11 @@
+name: Validate
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  icons:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: scripts/validate.sh
+      - run: swift scripts/icons/render-sheet.swift icons /tmp/tab-icons-preview.png --size 16 --scale 2
