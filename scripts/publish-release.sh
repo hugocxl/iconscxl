@@ -19,7 +19,7 @@ if gh release view "$RELEASE_TAG" --json isDraft >/dev/null 2>&1; then
   fi
 else
   gh release create "$RELEASE_TAG" --verify-tag --draft --generate-notes \
-    --title "CXL Icons $RELEASE_TAG"
+    --title "IconsCXL $RELEASE_TAG"
 fi
 
 # Recover incomplete drafts on retry. Publish only after every asset is uploaded.

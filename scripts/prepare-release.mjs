@@ -24,7 +24,7 @@ export function stampVersion(manifests, lock, version) {
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   const version = releaseVersion(process.env.GITHUB_RUN_NUMBER);
-  const paths = ['packages/react', 'packages/react-native'];
+  const paths = ['packages/iconscxl'];
   const manifests = Object.fromEntries(paths.map(path => [path, JSON.parse(readFileSync(`${path}/package.json`))]));
   const lock = JSON.parse(readFileSync('package-lock.json'));
   stampVersion(manifests, lock, version);
@@ -35,7 +35,7 @@ if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) 
   mkdirSync('release', { recursive: true });
   execFileSync('npm', ['pack', '--workspaces', '--pack-destination', 'release'], { stdio: 'inherit' });
   const files = readdirSync('release').filter(file => file.endsWith('.tgz')).sort();
-  if (files.length !== 2) throw new Error('Expected exactly two release tarballs');
+  if (files.length !== 1) throw new Error('Expected exactly one release tarball');
   const sums = files.map(file => `${createHash('sha256').update(readFileSync(`release/${file}`)).digest('hex')}  ${file}`);
   writeFileSync('release/SHA256SUMS', sums.join('\n') + '\n');
   if (process.env.GITHUB_OUTPUT) {

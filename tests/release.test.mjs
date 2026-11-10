@@ -13,14 +13,12 @@ test('release versions are deterministic on retry and distinct across runs', () 
 
 test('release stamping keeps package and lockfile versions aligned', () => {
   const manifests = {
-    'packages/react': { name: 'web', version: '0.1.0' },
-    'packages/react-native': { name: 'native', version: '0.1.0' },
+    'packages/iconscxl': { name: '@hugocxl/iconscxl', version: '0.1.0' },
   };
   const lock = { packages: structuredClone(manifests), lockfileVersion: 3 };
   stampVersion(manifests, lock, '0.1.8');
   assert.deepEqual(lock.packages, manifests);
-  assert.equal(manifests['packages/react'].version, '0.1.8');
-  assert.equal(manifests['packages/react-native'].version, '0.1.8');
+  assert.equal(manifests['packages/iconscxl'].version, '0.1.8');
   assert.equal(lock.lockfileVersion, 3);
   assert.throws(() => stampVersion(manifests, { packages: {} }, '0.1.9'));
 });

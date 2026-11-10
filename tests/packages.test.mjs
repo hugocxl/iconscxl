@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, readdirSync } from 'node:fs';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import * as icons from '../packages/react/dist/index.js';
+import * as icons from '../packages/iconscxl/dist/react/index.js';
 test('all icons render and preserve geometry, view boxes and opacity', () => {
   const files = readdirSync('icons').filter(x => x.endsWith('.svg'));
   assert.equal(Object.keys(icons).length, files.length);
@@ -27,24 +27,23 @@ test('web accessibility defaults and explicit overrides', () => {
 });
 
 test('package entry points and per-icon imports resolve', async () => {
-  const root = await import('@hugocxl/cxl-icons-react');
-  const single = await import('@hugocxl/cxl-icons-react/search');
+  const root = await import('@hugocxl/iconscxl/react');
+  const single = await import('@hugocxl/iconscxl/react/search');
   assert.equal(root.SearchIcon, single.SearchIcon);
-  for (const platform of ['react', 'react-native']) {
-    const manifest = JSON.parse(readFileSync(`packages/${platform}/package.json`));
-    assert.equal(manifest.sideEffects, false);
-    assert.equal(manifest.exports['.'].default, './dist/index.js');
-    for (const file of ['LICENSE', 'NOTICE', 'THIRD_PARTY_LICENSES.md']) {
-      assert.equal(readFileSync(`packages/${platform}/${file}`, 'utf8'), readFileSync(file, 'utf8'));
-    }
+  const manifest = JSON.parse(readFileSync('packages/iconscxl/package.json'));
+  assert.equal(manifest.sideEffects, false);
+  assert.equal(manifest.exports['.'].default, './dist/js/index.js');
+  for (const file of ['LICENSE', 'NOTICE', 'THIRD_PARTY_LICENSES.md']) {
+    assert.equal(readFileSync(`packages/iconscxl/${file}`, 'utf8'), readFileSync(file, 'utf8'));
   }
+
 });
 
-test('both packages bundle and tree shake unused icons', async () => {
+test('all adapters bundle and tree shake unused icons', async () => {
   const { build } = await import('esbuild');
-  for (const platform of ['react', 'react-native']) {
+  for (const platform of ['js', 'react', 'react-native']) {
     const result = await build({
-      stdin: { contents: `export { SearchIcon } from '@hugocxl/cxl-icons-${platform}';`, resolveDir: process.cwd() },
+      stdin: { contents: `export { SearchIcon } from '@hugocxl/iconscxl/${platform}';`, resolveDir: process.cwd() },
       bundle: true,
       write: false,
       format: 'esm',
@@ -57,6 +56,22 @@ test('both packages bundle and tree shake unused icons', async () => {
     const included = Object.entries(Object.values(result.metafile.outputs)[0].inputs)
       .filter(([path, info]) => path.includes('/dist/') && info.bytesInOutput > 0)
       .map(([path]) => path);
-    assert.deepEqual(included, [`packages/${platform}/dist/search.js`]);
+    assert.deepEqual(included, [`packages/iconscxl/dist/${platform}/search.js`]);
   }
+});
+
+
+test('pure JavaScript exports preserve SVGs without framework dependencies', async () => {
+  const js = await import('@hugocxl/iconscxl/js');
+  const root = await import('@hugocxl/iconscxl');
+  const single = await import('@hugocxl/iconscxl/js/search');
+  assert.equal(single.SearchIcon, js.SearchIcon);
+  assert.deepEqual(root, js);
+  for (const file of readdirSync('icons').filter(file => file.endsWith('.svg'))) {
+    const symbol = file.slice(0, -4).split('-').map(part => part[0].toUpperCase() + part.slice(1)).join('') + 'Icon';
+    assert.equal(js[symbol], readFileSync(`icons/${file}`, 'utf8'));
+  }
+  const manifest = JSON.parse(readFileSync('packages/iconscxl/package.json'));
+  assert.equal(manifest.dependencies, undefined);
+  for (const peer of Object.keys(manifest.peerDependencies)) assert.equal(manifest.peerDependenciesMeta[peer].optional, true);
 });

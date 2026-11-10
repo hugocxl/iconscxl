@@ -1,5 +1,5 @@
 {
-  "name": "cxl-icons-workspace",
+  "name": "iconscxl-workspace",
   "private": true,
   "workspaces": [
     "packages/*"

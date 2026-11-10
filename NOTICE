@@ -1,11 +1,11 @@
-CXL Icons
+IconsCXL
 Copyright (c) 2026 Hugo Corta
 
 Adapted and extended for Tab; geometry, names, normalization, and brand treatments
 may differ from upstream. Original works retain their licenses.
 
 
-CXL Icons is Tab's own icon set, adapted and extended from two foundations:
+IconsCXL is Tab's own icon set, adapted and extended from two foundations:
 
 - `@pierre/icons` 0.9.0, under Apache 2.0:
   https://github.com/pierrecomputer/icons

@@ -1,0 +1,84 @@
+{
+  "name": "@hugocxl/iconscxl",
+  "version": "0.1.0",
+  "description": "IconsCXL icons for JavaScript, React and React Native.",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_LICENSES.md",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/js/index.d.ts",
+      "import": "./dist/js/index.js",
+      "default": "./dist/js/index.js"
+    },
+    "./js": {
+      "types": "./dist/js/index.d.ts",
+      "import": "./dist/js/index.js",
+      "default": "./dist/js/index.js"
+    },
+    "./js/*": {
+      "types": "./dist/js/*.d.ts",
+      "import": "./dist/js/*.js",
+      "default": "./dist/js/*.js"
+    },
+    "./react": {
+      "types": "./dist/react/index.d.ts",
+      "import": "./dist/react/index.js",
+      "default": "./dist/react/index.js"
+    },
+    "./react/*": {
+      "types": "./dist/react/*.d.ts",
+      "import": "./dist/react/*.js",
+      "default": "./dist/react/*.js"
+    },
+    "./react-native": {
+      "types": "./dist/react-native/index.d.ts",
+      "import": "./dist/react-native/index.js",
+      "react-native": "./dist/react-native/index.js",
+      "default": "./dist/react-native/index.js"
+    },
+    "./react-native/*": {
+      "types": "./dist/react-native/*.d.ts",
+      "import": "./dist/react-native/*.js",
+      "react-native": "./dist/react-native/*.js",
+      "default": "./dist/react-native/*.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/js/index.js",
+  "types": "./dist/js/index.d.ts",
+  "peerDependencies": {
+    "react": ">=18",
+    "react-native": ">=0.72",
+    "react-native-svg": ">=13"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-native": {
+      "optional": true
+    },
+    "react-native-svg": {
+      "optional": true
+    }
+  },
+  "license": "SEE LICENSE IN THIRD_PARTY_LICENSES.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hugocxl/iconscxl.git",
+    "directory": "packages/iconscxl"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepack": "python3 ../../scripts/generate.py --check"
+  }
+}
