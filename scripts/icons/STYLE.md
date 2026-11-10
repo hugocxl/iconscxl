@@ -22,7 +22,11 @@ npm run generate
 ```
 
 `draw.py --check` verifies that all original drawings and catalog entries match
-the recipes. The pinned authoring dependencies are needed only for editing or
+the recipes. The check accepts a different ordering of otherwise byte-identical
+closed contours within a path because Skia emits those in different orders on
+Linux/x86 and macOS/ARM. Coordinates, commands, winding direction, layer order
+and opacity must still match exactly; distributed SVG bytes and review hashes
+remain strict. The pinned authoring dependencies are needed only for editing or
 checking recipes; consuming SVGs and generating platform adapters use no Python
 third-party packages. Canonical SVGs are checked in.
 

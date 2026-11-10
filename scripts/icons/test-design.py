@@ -15,6 +15,23 @@ def layers(name,style='duotone'):
 def ink(name,style='solid'):return art.union(*(p for p,a in layers(name,style)))
 
 class DesignRegressionTests(unittest.TestCase):
+    def test_recipe_check_accepts_identical_closed_contours_in_different_order(self):
+        # Actual Linux/x86 output of the recipe that blocked the release.
+        native=(ROOT/'icons/film.svg').read_text()
+        linux=(ROOT/'tests/fixtures/film-linux.svg').read_text()
+        self.assertNotEqual(native,linux)
+        self.assertEqual(art.svg_comparison_key(native),art.svg_comparison_key(linux))
+        # Geometry, winding, missing parts, opacity and layer order still matter.
+        for changed in [linux.replace('13.375','13.4',1),
+                        linux.replace('opacity="0.24"','opacity="0.25"'),
+                        linux.replace('M5.675 13.375V2.625H10.325V13.375Z',''),
+                        linux.replace('M5.675 13.375V2.625H10.325V13.375Z',
+                                      'M5.675 13.375H10.325V2.625H5.675Z')]:
+            self.assertNotEqual(art.svg_comparison_key(native),art.svg_comparison_key(changed))
+        rows=linux.splitlines()
+        rows[1],rows[2]=rows[2],rows[1]
+        self.assertNotEqual(art.svg_comparison_key(native),art.svg_comparison_key('\n'.join(rows)+'\n'))
+
     def test_arrow_shafts_touch_their_heads(self):
         for direction in ['left','right','up','down','up-left','up-right','down-left','down-right']:
             name='arrow-'+direction

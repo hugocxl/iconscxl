@@ -6,6 +6,7 @@ All delivered SVGs contain filled Bézier contours, with no runtime dependencies
 """
 import json
 import math
+import re
 from pathlib import Path
 import sys
 import xml.etree.ElementTree as ET
@@ -577,6 +578,23 @@ def svg(layers):
     return '\n'.join(rows+['</svg>',''])
 
 
+def svg_comparison_key(text):
+    """Ignore only the order of identical closed contours in recipe checks.
+
+    Skia can emit disjoint contours in a different order on Linux/x86 and
+    macOS/ARM. Filled closed contours have the same winding result in either
+    order. Keep every command, coordinate, winding direction, layer order and
+    attribute byte exact. Canonical distributed SVG bytes remain unchanged.
+    """
+    def sort_closed_contours(match):
+        data=match.group(1)
+        contours=re.findall(r'M[^M]*',data)
+        if not contours or ''.join(contours)!=data or any(not c.endswith('Z') for c in contours):
+            return match.group(0)
+        return ' d="'+''.join(sorted(contours))+'"'
+    return re.sub(r' d="([^"]*)"',sort_closed_contours,text)
+
+
 def components(p):
     """Connected filled components, keeping counters with their outer contour."""
     contours=list(po.simplify(p).contours)
@@ -602,7 +620,8 @@ def main():
     def write(p,text):
         target=ROOT/p
         if check_mode:
-            if not target.exists() or target.read_text()!=text: failed.append(str(p))
+            if not target.exists() or svg_comparison_key(target.read_text())!=svg_comparison_key(text):
+                failed.append(str(p))
         else:
             target.parent.mkdir(parents=True,exist_ok=True);target.write_text(text)
     catalog=[]

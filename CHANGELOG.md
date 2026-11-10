@@ -15,6 +15,9 @@
 
 ### Changed
 
+- Accept platform-dependent ordering of identical closed contours in authoring
+  checks, with a Linux Film regression fixture; keep all reviewed SVGs unchanged.
+
 - Audit every supported drawing at 16/24/32 points in both tints; refine 469
   names, repair Solid structural parts/counters, and correct ambiguous silhouettes.
 - Add per-icon visual review hashes, native category sheets, and design regression

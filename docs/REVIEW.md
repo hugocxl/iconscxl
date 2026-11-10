@@ -107,3 +107,12 @@ and npm packaging dry run. The brand adaptation utility's 12 tests also passed.
 Xcode passed four macOS Swift tests, including loading every style's vector
 resources, and built successfully for the generic iOS Simulator destination.
 These are local results; no publication or remote CI result is claimed.
+
+## Cross-platform authoring check
+
+The release fix adds a tenth regression using the actual Linux/x86 Film output.
+Skia reordered two closed contours without changing their commands, coordinates
+or winding. Recipe consistency now ignores only that order within an SVG path.
+Coordinate changes, missing contours, reversed winding, changed opacity and
+reordered layers are rejected. The canonical SVGs and all reviewed hashes are
+unchanged. Recipe and design checks pass on both macOS/ARM and Linux/x86.
