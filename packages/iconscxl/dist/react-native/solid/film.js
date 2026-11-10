@@ -1,0 +1,5 @@
+import { createElement, forwardRef } from "react";
+import { Svg, Path, Circle, Rect, G } from "react-native-svg";
+export const FilmIcon = /*#__PURE__*/ forwardRef(function FilmIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement(Svg, {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, ...props, ref} ,createElement(Path, {"d": "M2.5 1.375H13.5Q14.1731 1.375 14.649 1.851Q15.125 2.3269 15.125 3V13Q15.125 13.6731 14.649 14.149Q14.1731 14.625 13.5 14.625H2.5Q1.8269 14.625 1.351 14.149Q0.875 13.6731 0.875 13V3Q0.875 2.3269 1.351 1.851Q1.8269 1.375 2.5 1.375ZM11.675 13.725V10.675H14.225V9.325H11.675V6.675H14.225V5.325H11.675V2.275H10.325V13.725ZM1.775 5.325V6.675H4.325V9.325H1.775V10.675H4.325V13.725H5.675V2.275H4.325V5.325Z", "fill": "currentColor"}));
+});

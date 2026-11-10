@@ -49,7 +49,40 @@
       "react-native": "./dist/react-native/*.js",
       "default": "./dist/react-native/*.js"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./js/duotone": {
+      "types": "./dist/js/index.d.ts",
+      "import": "./dist/js/index.js",
+      "default": "./dist/js/index.js"
+    },
+    "./js/duotone/*": {
+      "types": "./dist/js/*.d.ts",
+      "import": "./dist/js/*.js",
+      "default": "./dist/js/*.js"
+    },
+    "./react/duotone": {
+      "types": "./dist/react/index.d.ts",
+      "import": "./dist/react/index.js",
+      "default": "./dist/react/index.js"
+    },
+    "./react/duotone/*": {
+      "types": "./dist/react/*.d.ts",
+      "import": "./dist/react/*.js",
+      "default": "./dist/react/*.js"
+    },
+    "./react-native/duotone": {
+      "types": "./dist/react-native/index.d.ts",
+      "import": "./dist/react-native/index.js",
+      "react-native": "./dist/react-native/index.js",
+      "default": "./dist/react-native/index.js"
+    },
+    "./react-native/duotone/*": {
+      "types": "./dist/react-native/*.d.ts",
+      "import": "./dist/react-native/*.js",
+      "react-native": "./dist/react-native/*.js",
+      "default": "./dist/react-native/*.js"
+    },
+    "./catalog.json": "./dist/catalog.json"
   },
   "main": "./dist/js/index.js",
   "types": "./dist/js/index.d.ts",

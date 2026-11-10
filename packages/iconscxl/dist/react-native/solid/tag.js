@@ -1,0 +1,5 @@
+import { createElement, forwardRef } from "react";
+import { Svg, Path, Circle, Rect, G } from "react-native-svg";
+export const TagIcon = /*#__PURE__*/ forwardRef(function TagIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement(Svg, {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, ...props, ref} ,createElement(Path, {"d": "M2.28 1.375H7.884Q8.064 1.375 8.2303 1.4439Q8.3967 1.5128 8.524 1.6401L14.4419 7.5581Q15.125 8.2411 15.125 9Q15.125 9.7589 14.4419 10.4419L10.4419 14.4419Q9.7589 15.125 9 15.125Q8.2411 15.125 7.5581 14.4419L1.6401 8.524Q1.5128 8.3967 1.4439 8.2303Q1.375 8.064 1.375 7.884V2.28Q1.375 2.1909 1.3924 2.1034Q1.4098 2.016 1.4439 1.9337Q1.478 1.8513 1.5275 1.7772Q1.577 1.7031 1.6401 1.6401Q1.7031 1.577 1.7772 1.5275Q1.8513 1.478 1.9337 1.4439Q2.016 1.4098 2.1034 1.3924Q2.1909 1.375 2.28 1.375ZM4 5C4 5.5523 4.4477 6 5 6C5.5523 6 6 5.5523 6 5C6 4.4477 5.5523 4 5 4C4.4477 4 4 4.4477 4 5Z", "fill": "currentColor"}));
+});

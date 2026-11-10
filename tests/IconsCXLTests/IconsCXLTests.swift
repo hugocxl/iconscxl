@@ -25,3 +25,25 @@ import Testing
     }
 }
 #endif
+
+@Test func everyStyleLoadsItsOwnVectorResources() {
+    #expect(SolidIcon.allCases.count == StrokeIcon.allCases.count)
+    #expect(SolidIcon(rawValue: "github") == nil)
+    for icon in SolidIcon.allCases {
+        #expect(Icon(rawValue: icon.rawValue) != nil)
+        #expect(StrokeIcon(rawValue: icon.rawValue) != nil)
+        _ = icon.image
+        #if canImport(AppKit)
+        #expect(icon.nsImage != nil, "Missing solid image: \(icon.rawValue)")
+        #expect(icon.nsImage?.isTemplate == true)
+        #expect(icon.nsImage?.size.width ?? 0 > 0)
+        #endif
+    }
+    for icon in StrokeIcon.allCases {
+        _ = icon.image
+        #if canImport(AppKit)
+        #expect(icon.nsImage != nil, "Missing stroke image: \(icon.rawValue)")
+        #expect(icon.nsImage?.isTemplate == true)
+        #endif
+    }
+}

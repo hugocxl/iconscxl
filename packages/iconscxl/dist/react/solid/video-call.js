@@ -1,0 +1,4 @@
+import { createElement, forwardRef } from "react";
+export const VideoCallIcon = /*#__PURE__*/ forwardRef(function VideoCallIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement("svg", {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, "aria-hidden": props["aria-label"] || props["aria-labelledby"] ? undefined : true, ...props, ref} ,createElement("path", {"d": "M3.5 3.375H8.5Q9.5873 3.375 10.3562 4.1438Q11.0998 4.8875 11.1242 5.929L14.5 4V12L11.1242 10.071Q11.0998 11.1125 10.3562 11.8562Q9.5873 12.625 8.5 12.625H3.5Q2.4127 12.625 1.6438 11.8562Q0.875 11.0873 0.875 10V6Q0.875 4.9127 1.6438 4.1438Q2.4127 3.375 3.5 3.375Z", "fill": "currentColor"}));
+});

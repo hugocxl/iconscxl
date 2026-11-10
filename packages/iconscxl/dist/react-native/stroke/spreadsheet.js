@@ -1,0 +1,5 @@
+import { createElement, forwardRef } from "react";
+import { Svg, Path, Circle, Rect, G } from "react-native-svg";
+export const SpreadsheetIcon = /*#__PURE__*/ forwardRef(function SpreadsheetIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement(Svg, {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, ...props, ref} ,createElement(Path, {"d": "M4 1.375H12Q13.0873 1.375 13.8562 2.1438Q14.625 2.9127 14.625 4V12Q14.625 13.0873 13.8562 13.8562Q13.0873 14.625 12 14.625H4Q2.9127 14.625 2.1438 13.8562Q1.375 13.0873 1.375 12V4Q1.375 2.9127 2.1438 2.1438Q2.9127 1.375 4 1.375ZM13.375 5.4V4Q13.375 3.4305 12.9723 3.0277Q12.5695 2.625 12 2.625H6.6V5.4H13.375ZM6.6 6.6V9.4H9.4V6.6ZM2.625 6.6V9.4H5.4V6.6H2.625ZM6.6 13.375H9.4V10.6H6.6V13.375ZM13.375 9.4V6.6H10.6V9.4H13.375ZM4 2.625Q3.4305 2.625 3.0277 3.0277Q2.625 3.4305 2.625 4V5.4H5.4V2.625ZM2.625 10.6V12Q2.625 12.5695 3.0277 12.9723Q3.4305 13.375 4 13.375H5.4V10.6H2.625ZM10.6 13.375H12Q12.5695 13.375 12.9723 12.9723Q13.375 12.5695 13.375 12V10.6H10.6V13.375Z", "fill": "currentColor"}));
+});

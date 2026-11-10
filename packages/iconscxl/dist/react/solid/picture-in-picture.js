@@ -1,0 +1,4 @@
+import { createElement, forwardRef } from "react";
+export const PictureInPictureIcon = /*#__PURE__*/ forwardRef(function PictureInPictureIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement("svg", {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, "aria-hidden": props["aria-label"] || props["aria-labelledby"] ? undefined : true, ...props, ref} ,createElement("path", {"d": "M3.5 1.375H12.5Q13.5873 1.375 14.3562 2.1438Q15.125 2.9127 15.125 4V12Q15.125 13.0873 14.3562 13.8562Q13.5873 14.625 12.5 14.625H3.5Q2.4127 14.625 1.6438 13.8562Q0.875 13.0873 0.875 12V4Q0.875 2.9127 1.6438 2.1438Q2.4127 1.375 3.5 1.375ZM9 8C8.4477 8 8 8.4477 8 9V11C8 11.5523 8.4477 12 9 12H12C12.5523 12 13 11.5523 13 11V9C13 8.4477 12.5523 8 12 8Z", "fill": "currentColor"}));
+});

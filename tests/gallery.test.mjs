@@ -1,0 +1,26 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { JSDOM, VirtualConsole } from 'jsdom';
+const catalog=JSON.parse(readFileSync('catalog.json'));
+test('offline gallery searches, filters styles, inspects artwork and changes appearance',()=>{
+ const errors=[];
+ const virtualConsole=new VirtualConsole();virtualConsole.on('jsdomError',e=>errors.push(e));
+ const dom=new JSDOM(readFileSync('index.html','utf8'),{runScripts:'dangerously',virtualConsole,beforeParse(w){w.matchMedia=()=>({matches:false});w.HTMLDialogElement.prototype.showModal=function(){this.setAttribute('open','')};w.HTMLDialogElement.prototype.close=function(){this.removeAttribute('open')}}});
+ const w=dom.window,d=w.document,$=id=>d.getElementById(id);
+ const change=(id,value,event='change')=>{$(id).value=value;$(id).dispatchEvent(new w.Event(event))};
+ assert.equal(d.querySelectorAll('.card').length,catalog.length);
+ change('search','calendar','input');assert.ok(d.querySelectorAll('.card').length>=7);
+ change('search','there-is-no-icon-by-this-name','input');assert.equal(d.querySelectorAll('.card').length,0);assert.equal($('empty').hidden,false);
+ change('search','','input');change('style','stroke');assert.equal(d.querySelectorAll('.card').length,catalog.filter(i=>i.styles.includes('stroke')).length);
+ assert.equal([...d.querySelectorAll('.card')].some(n=>n.textContent==='github'),false);
+ change('search','search','input');[...d.querySelectorAll('.card')].find(n=>n.querySelector('code').textContent==='search').click();
+ assert.equal($('detail').open,true);assert.equal($('detail-name').textContent,'search');assert.match($('import').textContent,/react\/stroke/);assert.equal($('specimen').querySelectorAll('svg').length,3);
+ d.querySelector('.close').click();assert.equal($('detail').open,false);
+ change('search','','input');[...d.querySelectorAll('#categories button')].find(n=>n.firstChild.textContent==='Health and fitness').click();
+ assert.equal(d.querySelectorAll('.card').length,catalog.filter(i=>i.category==='Health and fitness').length);
+ change('size','16','input');assert.equal(d.documentElement.style.getPropertyValue('--size'),'16px');
+ change('tint','#ff0000','input');assert.equal(d.documentElement.style.getPropertyValue('--icon-color'),'#ff0000');$('reset-tint').click();assert.equal(d.documentElement.style.getPropertyValue('--icon-color'),'');
+ $('theme').click();assert.equal(d.documentElement.dataset.theme,'dark');
+ assert.deepEqual(errors,[]);dom.window.close();
+});

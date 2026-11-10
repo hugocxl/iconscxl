@@ -5,3 +5,10 @@ createElement(NativeSearchIcon, { size: 24, ref: createRef<ComponentRef<typeof N
 createElement(NativeTerminalIcon, { color: 'red', onPress: () => {} });
 // @ts-expect-error DOM events are not native props
 createElement(NativeSearchIcon, { onClick: () => {} });
+
+import { SearchIcon as SolidNativeSearchIcon } from '@hugocxl/iconscxl/react-native/solid';
+import { SearchIcon as StrokeNativeSearchIcon } from '@hugocxl/iconscxl/react-native/stroke/search';
+createElement(SolidNativeSearchIcon, { ref: createRef<ComponentRef<typeof SolidNativeSearchIcon>>(), accessibilityLabel: 'Search' });
+createElement(StrokeNativeSearchIcon, { size: 16, onPress: () => {} });
+// @ts-expect-error style exports retain the native prop boundary
+createElement(StrokeNativeSearchIcon, { onClick: () => {} });

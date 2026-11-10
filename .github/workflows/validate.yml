@@ -21,6 +21,9 @@ jobs:
         with:
           python-version: '3.12'
       - run: npm ci
+      - run: python -m pip install -r scripts/icons/requirements.txt
+      - run: python scripts/icons/draw.py --check
+      - run: python scripts/icons/test-design.py
       - run: npm run validate
   swift:
     runs-on: macos-15

@@ -1,6 +1,6 @@
 # IconsCXL
 
-207 icons in one package, with typed, tree-shakeable exports for JavaScript,
+550 duotone icons (469 also available in Solid and Stroke) in one package, with typed, tree-shakeable exports for JavaScript,
 React and React Native.
 
 ```sh
@@ -26,3 +26,9 @@ install the peers needed by the adapter you use.
 
 See https://github.com/hugocxl/iconscxl for Swift support and full usage.
 Redistribute LICENSE, NOTICE and THIRD_PARTY_LICENSES.md with the artwork.
+
+Style imports use `/js/solid`, `/react/solid`, `/react-native/solid` or the
+matching `/stroke` paths. Per-icon style imports are supported too, for example
+`@hugocxl/iconscxl/react/stroke/search`. `/duotone` explicitly selects the default.
+Brand marks are available in Duotone only. The exported `catalog.json` records
+style availability, category, keywords, and provenance for every name.

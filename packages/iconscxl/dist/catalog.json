@@ -1,0 +1,5901 @@
+[
+  {
+    "name": "accessibility",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "activity",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "agents",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "airplay",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "alarm-clock",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "align-center",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "align-justify",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "align-left",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "align-right",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "antigravity",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "app-window",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "apple",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "archive",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "arrow-down",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "arrow-down-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "arrow-down-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "arrow-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "arrow-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "arrow-up",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "arrow-up-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "arrow-up-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "astro",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "at-sign",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "atom",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "award",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "babel",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "badge-check",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "ban",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bandage",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "banknote",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "barcode",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bash",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "basket",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "battery",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "battery-charging",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "battery-empty",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "battery-full",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "battery-low",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bed",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bell",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bell-off",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bell-plus",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bell-ring",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bell-unread",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bicycle",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "biome",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "bitbucket",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "bluetooth",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bluetooth-off",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bold",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "book",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "book-open",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bookmark",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bookmark-check",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bookmark-plus",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bootstrap",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "bot",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bottle",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "braces",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "brain",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "briefcase",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "browser",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "browserslist",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "bug",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "building",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "bun",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "bus",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "c",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "cake",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "calendar",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "calendar-check",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "calendar-clock",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "calendar-days",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "calendar-heart",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "calendar-plus",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "calendar-range",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "calendar-x",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "camera",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "camera-off",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "car",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cast",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chart-area",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chart-bar",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chart-donut",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chart-line",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chart-pie",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "check",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "check-check",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "checkbox",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "checkbox-fill",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chef-hat",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevron-down",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevron-down-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevron-down-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevron-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevron-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevron-up",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevron-up-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevron-up-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevrons-down",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevrons-in",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevrons-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevrons-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevrons-up",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "chevrons-up-down",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-alert",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-arrow-down",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-arrow-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-arrow-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-arrow-up",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-check",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-check-fill",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-ellipsis",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-help",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-info",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-minus",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-plus",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-user",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-x",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "circle-x-fill",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "claude",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "clipboard",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "clipboard-check",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "clock",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "close",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cloud",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cloud-download",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cloud-fog",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cloud-lightning",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cloud-off",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cloud-rain",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cloud-snow",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cloud-upload",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "code",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "code-block",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "codex",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "coffee",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "coins",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "columns",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "command",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "comment-text",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "compass",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "contact",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "conversation",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "conversation-add",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "copilot",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "copy",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cpp",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "cpu",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "credit-card",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "crop",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "csharp",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "css",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "cup",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "cursor",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "dart",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "database",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "deno",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "diff",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "disc",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "docker",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "dollar",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "door-open",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "dot",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "download",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "download-circle-fill",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "droid",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "droplet",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "dumbbell",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "elixir",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "ellipsis",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "ellipsis-circle",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "ellipsis-vertical",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "envelope",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "epub",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "eraser",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "eslint",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "euro",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "exclamation-circle-fill",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "extension",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "external-link",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "eye",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "eye-off",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "fan",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "fast-forward",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-audio",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-check",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-code",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-download",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-heart",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-image",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-lock",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-minus",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-plus",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-search",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-symlink",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-table",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-text",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-upload",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-video",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-x",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "file-zip",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "film",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "filter",
+    "category": "Actions and status",
+    "tags": [
+      "funnel",
+      "refine"
+    ],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "fingerprint",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "first-aid",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "fish",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "flag",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "flame",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "flask",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "flower",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "fold-vertical",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-check",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-code",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-download",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-heart",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-lock",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-minus",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-open",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-plus",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-search",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-upload",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-x",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folder-zip",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "folders",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "font",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "footprints",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "forgejo",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "frown",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "fuel",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "fullscreen",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "gamepad",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "gauge-high",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "gauge-low",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "gauge-max",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "gauge-medium",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "gift",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "git",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "git-branch",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "git-commit",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "git-compare",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "git-fork",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "git-merge",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "git-pull-request",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "gitcafe",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "github",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "gitlab",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "globe",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "go",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "graduation-cap",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "graphql",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "grok",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "hand",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "hard-drive",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "hash",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "haskell",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "heading-1",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "heading-2",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "headphones",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "heart",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "heart-pulse",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "history",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "home",
+    "category": "Navigation",
+    "tags": [
+      "house",
+      "dashboard",
+      "start"
+    ],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "homebrew",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "hospital",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "hourglass",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "html",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "image",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "image-plus",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "inbox",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "indent",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "infinity",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "info",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "info-fill",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "italic",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "java",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "javascript",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "key",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "key-round",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "keyboard",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "kiro",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "kotlin",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "kubernetes",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "lamp",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "landmark",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "laptop",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "layers",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "layout-dashboard",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "layout-grid",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "layout-sidebar",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "leaf",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "lightbulb",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "lightbulb-on",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "link",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "list",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "list-ordered",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "list-todo",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "lock",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "lock-open",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "log-in",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "log-out",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "logs",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "lua",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "lungs",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "mail",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "mail-check",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "mail-open",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "mail-plus",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "map",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "map-pin",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "markdown",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "maximize",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "mcp",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "medal",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "medical-cross",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "megaphone",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "meh",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "menu",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "message",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "message-check",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "message-dots",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "message-heart",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "message-plus",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "message-text",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "microphone",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "microphone-off",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "minimize",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "minus",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "minus-circle",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "monitor",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "moon",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "mountain",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "mouse",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "multiplexer",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "music",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "music-note",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "navigation",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "network",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "nextjs",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "node",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "notebook",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "npm",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "objc",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "octagon-alert",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "oh-my-pi",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "opencode",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "outdent",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "oxc",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "package",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "paintbrush",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "palette",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "panel-bottom",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "panel-left",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "panel-right",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "panel-top",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "paperclip",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "parking",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pause",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pause-circle-fill",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "paw",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pdf",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pen-tool",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pencil",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "percent",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "phone",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "phone-android",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "phone-call",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "php",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "pi",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "picture-in-picture",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pill",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pin",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pipette",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pizza",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "plane",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "play",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "play-circle",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "plug",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "plus",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "pnpm",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "podcast",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "postcss",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "pound",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "power",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "powershell",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "presentation",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "prettier",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "printer",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "puzzle",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "python",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "qr-code",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "quote",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "r",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "radio",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "rainbow",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "react",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "receipt",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "recycle",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "redo",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "refresh",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "refresh-circle-fill",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "repeat",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "reset",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "rewind",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "rocket",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "rotate-left",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "rotate-right",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "route",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "rows",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "rss",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "ruby",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "ruler",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "rust",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "sass",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "save",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "scala",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "scan",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "scan-face",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "scissors",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "search",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "send",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "server-rack",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "settings",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shield",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shield-alert",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shield-check",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shield-keyhole",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shield-lock",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shield-x",
+    "category": "Security",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "ship",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shopping-bag",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shopping-cart",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "shuffle",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "signpost",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "simulator",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "skip-back",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "skip-forward",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sliders",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "slides",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "smile",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "snowflake",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sofa",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sort-ascending",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sort-descending",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sparkles",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "spinner",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "spreadsheet",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sprout",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "square",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "ssh",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "star",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "stethoscope",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sticky-note",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "stop",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "stop-circle",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "store",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "strikethrough",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "stylelint",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "suitcase",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sun",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sunrise",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "sunset",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "svelte",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "svg",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "svgo",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "swap-horizontal",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "swap-vertical",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "swatch",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "swift",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "table",
+    "category": "Layout",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "tablet",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "tag",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "tailwind",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "target",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "tent",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "terminal",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "terminal-stack",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "terraform",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "test-tube",
+    "category": "Work and education",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "text-cursor",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "text-select",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "text-size",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "themes",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "thermometer",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "thumbs-down",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "thumbs-up",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "ticket",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "timer",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "toggle-off",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "toggle-on",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "toml",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "train",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "trash",
+    "category": "Actions and status",
+    "tags": [
+      "delete",
+      "remove",
+      "bin"
+    ],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "tree",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "trending-down",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "trending-up",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "triangle-alert",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "triangle-alert-fill",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "trophy",
+    "category": "Time and planning",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "truck",
+    "category": "Maps and travel",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "tv",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "typescript",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "umbrella",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "underline",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "undo",
+    "category": "Navigation",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "unlink",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "upload",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "usb",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "user",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "user-check",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "user-plus",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "user-x",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "users",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "utensils",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "video",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "video-call",
+    "category": "Communication",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "vim",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "vite",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "volume",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "volume-off",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "vscode",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "vue",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "wallet",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "wasm",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "watch",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "waveform",
+    "category": "Media",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "webpack",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "weight",
+    "category": "Health and fitness",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "wheelchair",
+    "category": "People and accessibility",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "wifi",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "wifi-off",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "wind",
+    "category": "Weather and nature",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "wine",
+    "category": "Home and food",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "word",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "workflow",
+    "category": "Charts and analytics",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "wrap",
+    "category": "Editing and design",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "wrench",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "xal",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "xml",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "yarn",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "yen",
+    "category": "Finance and commerce",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "yml",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "zap",
+    "category": "Technology and development",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "zig",
+    "category": "Brands",
+    "tags": [],
+    "origin": "legacy",
+    "styles": [
+      "duotone"
+    ]
+  },
+  {
+    "name": "zip",
+    "category": "Files and folders",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "zoom-in",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  },
+  {
+    "name": "zoom-out",
+    "category": "Actions and status",
+    "tags": [],
+    "origin": "original",
+    "styles": [
+      "duotone",
+      "solid",
+      "stroke"
+    ]
+  }
+]

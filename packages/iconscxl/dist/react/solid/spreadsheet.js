@@ -1,0 +1,4 @@
+import { createElement, forwardRef } from "react";
+export const SpreadsheetIcon = /*#__PURE__*/ forwardRef(function SpreadsheetIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement("svg", {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, "aria-hidden": props["aria-label"] || props["aria-labelledby"] ? undefined : true, ...props, ref} ,createElement("path", {"d": "M4 1.375H12Q13.0873 1.375 13.8562 2.1438Q14.625 2.9127 14.625 4V12Q14.625 13.0873 13.8562 13.8562Q13.0873 14.625 12 14.625H4Q2.9127 14.625 2.1438 13.8562Q1.375 13.0873 1.375 12V4Q1.375 2.9127 2.1438 2.1438Q2.9127 1.375 4 1.375ZM2.275 9.4V10.6H5.4V13.725H6.6V10.6H9.4V13.725H10.6V10.6H13.725V9.4H10.6V6.6H13.725V5.4H6.6V2.275H5.4V5.4H2.275V6.6H5.4V9.4ZM6.6 6.6H9.4V9.4H6.6Z", "fill": "currentColor"}));
+});

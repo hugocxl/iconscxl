@@ -5,16 +5,21 @@ import UIKit
 import AppKit
 #endif
 
-extension Icon {
+/// A named vector resource in the IconsCXL asset catalog.
+public protocol IconResource: Sendable {
+    var resourceName: String { get }
+}
+
+extension IconResource {
     /// A template image that inherits the caller's foreground style.
-    public var image: Image { Image(rawValue, bundle: .module).renderingMode(.template) }
+    public var image: Image { Image(resourceName, bundle: .module).renderingMode(.template) }
 #if canImport(UIKit)
     /// The catalog image, suitable for tinting in UIKit.
     public var uiImage: UIImage? {
-        UIImage(named: rawValue, in: .module, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
+        UIImage(named: resourceName, in: .module, compatibleWith: nil)?.withRenderingMode(.alwaysTemplate)
     }
 #elseif canImport(AppKit)
     /// The catalog image, suitable for tinting in AppKit.
-    public var nsImage: NSImage? { Bundle.module.image(forResource: NSImage.Name(rawValue)) }
+    public var nsImage: NSImage? { Bundle.module.image(forResource: NSImage.Name(resourceName)) }
 #endif
 }

@@ -1,5 +1,5 @@
 import { createElement, forwardRef } from "react";
-import { Svg, Path, Circle } from "react-native-svg";
+import { Svg, Path, Circle, Rect, G } from "react-native-svg";
 export const ElixirIcon = /*#__PURE__*/ forwardRef(function ElixirIcon({size = 16, color = "currentColor", ...props}, ref) {
   return createElement(Svg, {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, ...props, ref} ,createElement(Path, {"d": "M8 0C1.42 0 0 1.42 0 8s1.42 8 8 8 8-1.42 8-8-1.42-8-8-8", "fill": "currentColor", "opacity": ".2"}), createElement(Path, {"d": "M11.32 9.96 C11.32 11.56 10.08 13.12 8.02 13.12 C5.78 13.12 4.68 11.54 4.68 9.59 C4.68 7.37 6.33 4.07 8.08 2.91 A0.17 0.17 0 0 1 8.35 3.07 A4.14 4.14 0 0 0 9.07 5.85 C9.29 6.19 9.54 6.49 9.82 6.86 C10.23 7.37 10.52 7.67 10.95 8.5 L10.95 8.5 A3.04 3.04 0 0 1 11.32 9.96 Z", "fill": "currentColor"}));
 });

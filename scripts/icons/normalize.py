@@ -81,6 +81,7 @@ def normalize(data):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('folder', type=Path)
+    parser.add_argument('--check', action='store_true', help='Check canonical bytes without modifying files')
     args = parser.parse_args()
     if not args.folder.is_dir():
         parser.error(f'not a folder: {args.folder}')
@@ -91,7 +92,11 @@ def main():
             original = file.read_bytes()
             result = normalize(original)
             if result != original:
-                file.write_bytes(result)
+                if args.check:
+                    print(f'{file}: not normalized', file=sys.stderr)
+                    failed = True
+                else:
+                    file.write_bytes(result)
         except (OSError, ValueError) as error:
             print(f'{file}: {error}', file=sys.stderr)
             failed = True

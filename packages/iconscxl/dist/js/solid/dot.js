@@ -1,0 +1,1 @@
+export const DotIcon = "<svg fill=\"none\" viewBox=\"0 0 16 16\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path d=\"M4 8C4 5.7909 5.7909 4 8 4C10.2091 4 12 5.7909 12 8C12 10.2091 10.2091 12 8 12C5.7909 12 4 10.2091 4 8Z\" fill=\"currentColor\"/>\n</svg>\n";

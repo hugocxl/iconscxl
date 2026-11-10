@@ -1,8 +1,9 @@
 # IconsCXL
 
-207 lightweight SVG icons for apps, developer tools, files, and brands. Use the
-artwork directly or consume the generated Swift, React, and React Native
-adapters. The collection was adapted and extended for [Tab](https://github.com/hugocxl/tab).
+550 rounded, duotone-first icons for product interfaces, developer tools, files,
+and brands. The 469 UI icons also have Solid and Stroke drawings (1,488 SVGs
+total). Use the artwork directly or consume the generated Swift, React, and
+React Native adapters. The original collection was adapted and extended for [Tab](https://github.com/hugocxl/tab).
 
 ![IconsCXL preview](preview.png)
 
@@ -27,15 +28,19 @@ No dependencies or build step are required to use the artwork.
 git clone https://github.com/hugocxl/iconscxl.git
 ```
 
-Icons use `currentColor`, filled geometry and their original viewBox. Most are
-16 units high; preserve aspect ratio when sizing them. Duo icons use opacity
-for a secondary layer of the same color.
+Icons use `currentColor` and filled vector geometry. New UI symbols use a
+16 × 16 canvas; preserve the viewBox and aspect ratio when sizing legacy assets.
+Duotone is the default, using opacity for a secondary layer of the same tint.
+Solid and Stroke artwork lives in `icons/styles/solid` and `icons/styles/stroke`.
 
 Inline an SVG in HTML to inherit CSS `color`. When loading SVGs through an
 `<img>` tag, parent CSS color does not propagate into the file. Native apps can
 load them as template images and apply their own tint.
 
-Open [`index.html`](index.html) locally for a searchable gallery of every icon.
+Open [`index.html`](index.html) locally for a searchable, offline gallery with
+category/style filters, tint and size controls, SVG copying, and downloads.
+See [the coverage catalog](docs/CATALOG.md), [design system](docs/DESIGN.md),
+and [full artwork review with before/after examples](docs/REVIEW.md).
 
 ## Swift / SwiftUI
 
@@ -136,6 +141,35 @@ Both JavaScript packages ship typed ESM with per-icon exports and tree shaking.
 The peer ranges are compatibility declarations; CI checks the versions in the
 lockfile, not every older React Native release.
 
+
+## Choose a drawing style
+
+Rounded Duotone remains the default, including all 81 retained brand marks.
+The 469 original UI icons also support Rounded Solid and Rounded Stroke.
+Brands are intentionally absent from those two style namespaces.
+
+```tsx
+import { SearchIcon } from '@hugocxl/iconscxl/react'; // Duotone
+import { SearchIcon as SolidSearchIcon } from '@hugocxl/iconscxl/react/solid';
+import { SearchIcon as StrokeSearchIcon } from '@hugocxl/iconscxl/react/stroke/search';
+```
+
+The same style paths work under `/js` and `/react-native`. Explicit `/duotone`
+and `/duotone/search` imports are aliases of the default artwork. Use
+`@hugocxl/iconscxl/catalog.json` to inspect names, categories, keywords, provenance,
+and supported styles. Style namespaces remain tree-shakeable.
+
+```swift
+Icon.search.image         // Rounded Duotone
+SolidIcon.search.image    // Rounded Solid
+StrokeIcon.search.image   // Rounded Stroke
+```
+
+All three Swift enums expose `allCases`, `rawValue`, `image`, `uiImage` (UIKit),
+and `nsImage` (AppKit). Existing names and imports remain available; the UI artwork
+has been redrawn, including historical `*-fill` names, so upgrading changes their
+appearance. This release does not include Hugeicons or SF Symbols artwork.
+
 ## Development and validation
 
 Use Node 22+, npm, Python 3, and Xcode with Swift 6+ for Apple builds.
@@ -148,7 +182,8 @@ xcodebuild -scheme IconsCXL -destination 'platform=macOS' test
 xcodebuild -scheme IconsCXL -destination 'generic/platform=iOS Simulator' CODE_SIGNING_ALLOWED=NO build
 ```
 
-`icons/` is the source of truth. Commit generated `packages/*/dist` and
+`icons/` is the source of truth for distribution. Original editable recipes live
+in `scripts/icons/draw.py`; see the drawing guide for pinned authoring tools. Commit generated `packages/*/dist` and
 `Sources/IconsCXL` resources so consumers do not need Python or a generation
 step. Do not edit generated files directly. Build caches and dependencies are
 ignored. CI validates JavaScript packages on Linux and Swift on macOS, including
@@ -203,7 +238,7 @@ Preserve upstream attribution when adapting artwork.
 
 ## License and attribution
 
-Original Tab contributions and tooling are [MIT licensed](LICENSE).
+Original IconsCXL artwork, Tab contributions and tooling are [MIT licensed](LICENSE).
 The collection includes artwork adapted from Pierre Icons (Apache 2.0),
 Pierre's file icons (MIT), Simple Icons (CC0 1.0), LobeHub Icons (MIT), and
 Devicon (MIT). Upstream artwork retains its original license; the collection

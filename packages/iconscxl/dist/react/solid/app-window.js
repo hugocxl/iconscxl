@@ -1,0 +1,4 @@
+import { createElement, forwardRef } from "react";
+export const AppWindowIcon = /*#__PURE__*/ forwardRef(function AppWindowIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement("svg", {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, "aria-hidden": props["aria-label"] || props["aria-labelledby"] ? undefined : true, ...props, ref} ,createElement("path", {"d": "M3.5 1.375H12.5Q13.5873 1.375 14.3562 2.1438Q15.125 2.9127 15.125 4V12Q15.125 13.0873 14.3562 13.8562Q13.5873 14.625 12.5 14.625H3.5Q2.4127 14.625 1.6438 13.8562Q0.875 13.0873 0.875 12V4Q0.875 2.9127 1.6438 2.1438Q2.4127 1.375 3.5 1.375ZM1.775 6.175H14.225V4.825H1.775ZM3.6 3.8C3.6 4.0209 3.7791 4.2 4 4.2C4.2209 4.2 4.4 4.0209 4.4 3.8C4.4 3.5791 4.2209 3.4 4 3.4C3.7791 3.4 3.6 3.5791 3.6 3.8ZM5.6 3.8C5.6 4.0209 5.7791 4.2 6 4.2C6.2209 4.2 6.4 4.0209 6.4 3.8C6.4 3.5791 6.2209 3.4 6 3.4C5.7791 3.4 5.6 3.5791 5.6 3.8Z", "fill": "currentColor"}));
+});

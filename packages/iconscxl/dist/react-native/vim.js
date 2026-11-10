@@ -1,5 +1,5 @@
 import { createElement, forwardRef } from "react";
-import { Svg, Path, Circle } from "react-native-svg";
+import { Svg, Path, Circle, Rect, G } from "react-native-svg";
 export const VimIcon = /*#__PURE__*/ forwardRef(function VimIcon({size = 16, color = "currentColor", ...props}, ref) {
   return createElement(Svg, {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, ...props, ref} ,createElement(Path, {"d": "M8 0C1.42 0 0 1.42 0 8s1.42 8 8 8 8-1.42 8-8-1.42-8-8-8", "fill": "currentColor", "opacity": ".2"}), createElement(Path, {"d": "M4.51 12.72 L3.67 12.72 L3.54 12.64 L3.54 3.97 L2.92 3.97 L2.88 3.93 L2.88 3.36 L2.95 3.28 L6.57 3.28 L6.69 3.38 L6.69 3.93 L6.61 4.01 L6.08 4.01 L6.08 8.3 L10.42 4.01 L9.4 4.01 L9.3 3.92 L9.3 3.34 L9.36 3.29 L13.05 3.29 L13.12 3.36 L13.12 3.88 L8.15 8.99 L7.96 8.99 C7.95 8.99 7.95 8.99 7.94 8.99 L7.93 8.99 C7.92 9 7.9 9.01 7.87 9.02 L7.71 9.16 L7.71 9.16 C7.69 9.18 7.67 9.2 7.66 9.22 L7.52 9.63 L4.51 12.72 Z", "fill": "currentColor", "fillRule": "evenodd"}));
 });

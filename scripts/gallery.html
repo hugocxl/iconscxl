@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IconsCXL — Rounded icons for every interface</title>
+<style>
+:root{color-scheme:light;--bg:#f8f9fb;--surface:#fff;--ink:#19222e;--muted:#687487;--line:#e2e6ed;--accent:#5566d8;--tile:120px;--size:24px;font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+:root[data-theme=dark]{color-scheme:dark;--bg:#10141c;--surface:#181e29;--ink:#e8edf6;--muted:#9aa9bd;--line:#2a3445;--accent:#a3adff}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink)}button,input,select{font:inherit}button,select{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}a{color:var(--accent)}
+header{max-width:1440px;margin:auto;padding:28px 36px 0}nav{display:flex;gap:24px;align-items:center}.logo{font-size:18px;font-weight:750;letter-spacing:-.7px}.logo span{color:var(--accent)}nav .links{margin-left:auto;display:flex;gap:20px}nav a{text-decoration:none;color:var(--muted)}.intro{padding:64px 0 36px;max-width:760px}.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:700;color:var(--accent)}h1{font-size:clamp(36px,5vw,60px);line-height:1.08;letter-spacing:-2.5px;font-weight:650;margin:14px 0 20px}.intro p{color:var(--muted);font-size:17px;max-width:620px}.toolbar{position:sticky;top:0;background:var(--bg);z-index:2;padding:16px 0;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;align-items:center;gap:12px}.search{flex:1;min-width:200px}.search input{width:100%}input[type=search],select,button.control{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:9px;padding:10px 12px}label.small{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted)}input[type=range]{width:80px;accent-color:var(--accent)}input[type=color]{width:30px;height:30px;padding:2px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+.layout{max-width:1440px;margin:auto;padding:28px 36px 64px;display:grid;grid-template-columns:200px 1fr;gap:32px}aside{align-self:start;position:sticky;top:100px;max-height:calc(100vh - 130px);overflow:auto}aside h2{font-size:10px;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;margin:0 0 12px}aside button{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;border:0;border-radius:7px;background:none;color:var(--muted);font-size:12px;padding:8px 10px;margin:2px 0}aside button[aria-pressed=true]{background:var(--surface);color:var(--accent);font-weight:650}aside span{font-size:10px;color:var(--muted)}.results-top{display:flex;justify-content:space-between;gap:12px;margin:0 0 20px;color:var(--muted);font-size:12px}.results-top strong{color:var(--ink);font-weight:550}main{min-width:0}#grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--tile),1fr));gap:10px}.card{appearance:none;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;min-height:124px;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:12px;color:var(--ink);padding:20px 8px 14px;transition:border-color .15s,transform .15s}.card:hover{border-color:var(--accent);transform:translateY(-2px)}.art{display:flex;align-items:center;justify-content:center;color:var(--icon-color,var(--ink));height:40px;width:100%}.art svg{width:var(--size);height:var(--size)}.card code{font-size:10px;overflow-wrap:anywhere;line-height:1.25}.empty{padding:80px 0;text-align:center;color:var(--muted)}footer{max-width:1440px;margin:auto;padding:24px 36px 40px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+dialog{background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:20px;padding:28px;width:min(520px,calc(100% - 32px))}dialog::backdrop{background:#060b1688;backdrop-filter:blur(5px)}.dialog-head{display:flex;align-items:start;justify-content:space-between;gap:16px}.dialog-head h2{margin:0;font-size:22px;letter-spacing:-.6px}.dialog-head p{font-size:12px;color:var(--muted);margin:4px 0}.close{border:0;background:none;color:var(--muted);font-size:24px;line-height:1;padding:4px}.specimen{display:flex;align-items:center;justify-content:center;gap:30px;padding:50px 0;margin:20px 0;background:var(--bg);border-radius:12px}.specimen svg{width:48px;height:48px}.specimen .tiny svg{width:16px;height:16px}.specimen .medium svg{width:24px;height:24px}.specimen>div{color:var(--icon-color,var(--ink))}.code{display:block;white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px;padding:16px;background:var(--bg);border-radius:8px}.actions{display:flex;gap:8px;margin-top:20px}.actions button{flex:1}#notice{min-height:20px;color:var(--muted);font-size:12px;margin-top:12px}#status{position:fixed;bottom:20px;right:20px;background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:10px;z-index:5}#status:empty{display:none}
+@media(max-width:800px){header{padding:20px 20px 0}.intro{padding:40px 0 20px}.layout{display:block;padding:24px 20px}.toolbar{position:static}aside{position:static;max-height:none;display:flex;overflow:auto;gap:6px;margin-bottom:24px;padding-bottom:10px}aside h2{display:none}aside button{white-space:nowrap;width:auto;gap:12px;border:1px solid var(--line)}.results-top{flex-wrap:wrap}label.small{font-size:11px}#grid{--tile:100px}nav .links{gap:12px}footer{padding:24px 20px}}
+@media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+</style>
+</head>
+<body>
+<header>
+<nav aria-label="Main"><div class="logo">Icons<span>CXL</span></div><div class="links"><a href="README.md">Documentation</a><a href="https://github.com/hugocxl/iconscxl">GitHub ↗</a><button class="control" id="theme" aria-label="Switch to dark theme">Dark</button></div></nav>
+<div class="intro"><div class="eyebrow">One family. Every interface.</div><h1>Small details.<br>Endless possibilities.</h1><p>@@COUNT@@ considered symbols for the things you build. Rounded geometry, a shared visual rhythm, and duotone at heart.</p></div>
+<div class="toolbar"><label class="search"><input type="search" id="search" aria-label="Search icons" placeholder="Search names, categories, or keywords…" autocomplete="off"></label><select id="style" aria-label="Icon style"><option value="duotone">Rounded · Duotone</option><option value="solid">Rounded · Solid</option><option value="stroke">Rounded · Stroke</option></select><label class="small">Size <input id="size" type="range" min="16" max="40" value="24" step="4"><output id="size-value">24</output></label><label class="small">Tint <input id="tint" type="color" value="#5566d8"></label><button class="control" id="reset-tint" aria-label="Use default tint">Reset</button></div>
+</header>
+<div class="layout"><aside id="categories" aria-label="Icon categories"><h2>Collection</h2></aside><main><div class="results-top"><strong id="count" aria-live="polite"></strong><span id="hint">Select a symbol to inspect, copy, or download.</span></div><div id="grid"></div><p class="empty" id="empty" hidden>No matching icons. Try another term or category.</p></main></div>
+<footer>Original UI artwork is MIT licensed. Brand and legacy artwork retains its upstream licenses. <a href="NOTICE">Attribution</a> · <a href="docs/DESIGN.md">Design system</a> · <a href="docs/CATALOG.md">Coverage catalog</a></footer>
+<dialog id="detail" aria-labelledby="detail-name" aria-describedby="detail-meta"><div class="dialog-head"><div><h2 id="detail-name"></h2><p id="detail-meta"></p></div><button class="close" aria-label="Close icon details">×</button></div><div class="specimen" id="specimen"></div><code class="code" id="import"></code><div class="actions"><button class="control" id="copy-svg">Copy SVG</button><button class="control" id="copy-name">Copy name</button><button class="control" id="download">Download SVG</button></div><div id="notice" role="status"></div></dialog>
+<div id="status" role="status"></div>
+<script>
+const catalog=@@CATALOG@@;
+const artwork=@@ARTWORK@@;
+const $=id=>document.getElementById(id);
+let category='All icons',selected=null;
+const categoryNames=['All icons',...new Set(catalog.map(i=>i.category).sort())];
+const categoryButtons=new Map();
+for(const name of categoryNames){const b=document.createElement('button');b.textContent=name;const n=document.createElement('span');b.append(n);b.setAttribute('aria-pressed',String(name===category));b.onclick=()=>{category=name;render()};$('categories').append(b);categoryButtons.set(name,b)}
+const style=()=>$('style').value;
+const symbol=name=>name.split('-').map(w=>w[0].toUpperCase()+w.slice(1)).join('')+'Icon';
+function render(){
+ const query=$('search').value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+ const available=catalog.filter(i=>i.styles.includes(style()));
+ const filtered=available.filter(i=>(category==='All icons'||i.category===category)&&query.every(q=>[i.name,i.category,...i.tags].join(' ').toLowerCase().includes(q)));
+ $('count').textContent=`${filtered.length} ${filtered.length===1?'icon':'icons'}${category==='All icons'?'':' · '+category}`;
+ $('hint').textContent=style()==='duotone'?'Select a symbol to inspect, copy, or download.':'Original UI symbols. Brands are available in Duotone.';
+ for(const [name,b] of categoryButtons){b.setAttribute('aria-pressed',String(name===category));b.lastChild.textContent=available.filter(i=>name==='All icons'||i.category===name).length}
+ const fragment=document.createDocumentFragment();
+ for(const i of filtered){const b=document.createElement('button');b.className='card';b.setAttribute('aria-label',`Inspect ${i.name}`);const art=document.createElement('span');art.className='art';art.innerHTML=artwork[i.name][style()];art.firstChild.setAttribute('aria-hidden','true');const code=document.createElement('code');code.textContent=i.name;b.append(art,code);b.onclick=()=>open(i);fragment.append(b)}
+ $('grid').replaceChildren(fragment);$('empty').hidden=filtered.length!==0;
+}
+function open(i){selected=i;$('detail-name').textContent=i.name;$('detail-meta').textContent=`${i.category} · Rounded ${style()} · ${i.origin==='original'?'Original · MIT':'Upstream licenses apply'}`;$('specimen').replaceChildren();for(const c of ['tiny','medium','large']){const e=document.createElement('div');e.className=c;e.innerHTML=artwork[i.name][style()];e.firstChild.setAttribute('aria-hidden','true');$('specimen').append(e)}$('import').textContent=`import { ${symbol(i.name)} } from\n  '@hugocxl/iconscxl/react${style()==='duotone'?'':'/'+style()}';`;$('notice').textContent='';$('detail').showModal()}
+async function copy(value){try{await navigator.clipboard.writeText(value);$('notice').textContent='Copied to clipboard.'}catch{$('notice').textContent='Clipboard is unavailable here. Use Download SVG or select the import text.'}}
+$('copy-svg').onclick=()=>copy(artwork[selected.name][style()]);$('copy-name').onclick=()=>copy(selected.name);
+$('download').onclick=()=>{const url=URL.createObjectURL(new Blob([artwork[selected.name][style()]],{type:'image/svg+xml'}));const a=document.createElement('a');a.href=url;a.download=`${selected.name}-${style()}.svg`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)};
+document.querySelector('.close').onclick=()=>$('detail').close();
+$('search').oninput=render;$('style').onchange=render;
+$('size').oninput=()=>{document.documentElement.style.setProperty('--size',$('size').value+'px');$('size-value').textContent=$('size').value};
+$('tint').oninput=()=>document.documentElement.style.setProperty('--icon-color',$('tint').value);
+$('reset-tint').onclick=()=>document.documentElement.style.removeProperty('--icon-color');
+function theme(dark){document.documentElement.dataset.theme=dark?'dark':'light';$('theme').textContent=dark?'Light':'Dark';$('theme').setAttribute('aria-label',`Switch to ${dark?'light':'dark'} theme`)}
+$('theme').onclick=()=>theme(document.documentElement.dataset.theme!=='dark');theme(matchMedia('(prefers-color-scheme:dark)').matches);
+document.addEventListener('keydown',e=>{if(e.key==='/'&&!['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName)&&!$('detail').open){e.preventDefault();$('search').focus()}});
+render();
+</script>
+</body>
+</html>
