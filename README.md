@@ -1,12 +1,26 @@
 # CXL Icons
 
-207 SVG icons for apps, developer tools, files and brands, adapted and extended for [Tab](https://github.com/hugocxl/tab).
+207 lightweight SVG icons for apps, developer tools, files, and brands. Use the
+artwork directly or consume the generated Swift, React, and React Native
+adapters. The collection was adapted and extended for [Tab](https://github.com/hugocxl/tab).
 
 ![CXL Icons preview](preview.png)
 
-## Use
+## Choose an integration
 
-Download or clone this repository and copy the SVGs you need from `icons/`.
+| Need | Start here |
+| --- | --- |
+| Use an SVG in a web page, design, or native app | [Raw SVGs](#raw-svgs) |
+| Use icons in SwiftUI, UIKit, or AppKit | [Swift / SwiftUI](#swift--swiftui) |
+| Use icons in a React app | [React](#react) |
+| Use icons in React Native or Expo | [React Native / Expo](#react-native--expo) |
+
+All integrations use the same icon names and source artwork. The default icon
+size is 16, and icons use `currentColor` or an explicit platform tint.
+
+## Raw SVGs
+
+Download or clone the repository and copy the SVGs you need from [`icons/`](icons/).
 No dependencies or build step are required to use the artwork.
 
 ```sh
@@ -21,14 +35,14 @@ Inline an SVG in HTML to inherit CSS `color`. When loading SVGs through an
 `<img>` tag, parent CSS color does not propagate into the file. Native apps can
 load them as template images and apply their own tint.
 
-Open [index.html](index.html) locally for a searchable gallery of every icon.
+Open [`index.html`](index.html) locally for a searchable gallery of every icon.
 
 ## Swift / SwiftUI
 
-The Swift package exposes the `TabIcons` library (Swift 6+, macOS 12+, iOS 15+,
-tvOS 15+, watchOS 8+). In Xcode, add this repository as a **local package** while
-preparing the first package release, then add `TabIcons` to your app target.
-The existing 0.1.0 artwork tag does not include these adapters.
+The Swift package exposes the `TabIcons` library for Swift 6+, macOS 12+, iOS
+15+, tvOS 15+, and watchOS 8+. Add the repository as a Swift Package Manager
+dependency using a release tag, or add it as a local package while developing.
+Then add `TabIcons` to your app target.
 
 ```swift
 import TabIcons
@@ -48,10 +62,13 @@ Images come from the package's vector asset catalog and use template rendering.
 
 ## React
 
-The npm packages are prepared locally; this change does not publish them.
-From this repo, run `npm ci`, `npm run generate`, then
-`npm pack --workspace @hugocxl/cxl-icons-react`. Install the resulting `.tgz`
-file in your app with `npm install /path/to/the-package.tgz`.
+The React package provides typed ESM components with per-icon exports and tree
+shaking. Install the package from a GitHub release tarball, or pack it locally
+while preparing a release:
+
+```sh
+npm install /path/to/hugocxl-cxl-icons-react-0.1.0.tgz
+```
 
 ```tsx
 import { SearchIcon } from '@hugocxl/cxl-icons-react';
@@ -67,12 +84,20 @@ Unlabelled icons are decorative (`aria-hidden`). Supply `aria-label` or
 `aria-labelledby` for meaningful icons; explicit `aria-hidden` takes precedence.
 For icon-only buttons, label the button and leave the icon decorative.
 
+To create a local package tarball from this repository, run `npm ci`,
+`npm run generate`, then `npm pack --workspace @hugocxl/cxl-icons-react`.
+
 ## React Native / Expo
 
-Pack `@hugocxl/cxl-icons-react-native` with the same workflow and install its
-`.tgz` in your app. Install its peer dependency `react-native-svg` too:
-`npx expo install react-native-svg` for Expo, or `npm install react-native-svg`
-for a bare app (then install iOS pods using your app's normal workflow).
+The React Native package provides the same typed, per-icon API for React Native
+and Expo. Install the package from a GitHub release tarball and install its
+peer dependency:
+
+```sh
+npx expo install react-native-svg
+# Or, in a bare React Native app:
+npm install react-native-svg
+```
 
 ```tsx
 import { SearchIcon } from '@hugocxl/cxl-icons-react-native';
@@ -80,9 +105,12 @@ import { SearchIcon } from '@hugocxl/cxl-icons-react-native';
 <SearchIcon size={24} color="#64748b" accessibilityLabel="Search" />
 ```
 
-Native components accept `react-native-svg` props and refs. Use an explicit color
-or your app's theme color. No SVG transformer or custom Metro configuration is
-needed. Both npm packages ship typed ESM with per-icon exports and tree shaking.
+Native components accept `react-native-svg` props and refs. No SVG transformer
+or custom Metro configuration is needed. Install iOS pods using your app's
+normal workflow. To create a local package tarball, run `npm ci`,
+`npm run generate`, then `npm pack --workspace @hugocxl/cxl-icons-react-native`.
+
+Both JavaScript packages ship typed ESM with per-icon exports and tree shaking.
 The peer ranges are compatibility declarations; CI checks the versions in the
 lockfile, not every older React Native release.
 
