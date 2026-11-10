@@ -7,7 +7,7 @@
   "scripts": {
     "generate": "python3 scripts/generate.py",
     "check": "python3 scripts/generate.py --check",
-    "test": "node --test tests/packages.test.mjs",
+    "test": "node --test tests/*.test.mjs",
     "build": "npm run generate",
     "typecheck": "tsc -p tests/tsconfig.json && tsc -p tests/tsconfig.native.json",
     "validate": "bash scripts/validate.sh",

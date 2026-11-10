@@ -106,9 +106,28 @@ an iOS Simulator build. Use Xcode for asset-catalog tests; standalone SwiftPM re
 with the installed toolchain. Device rendering and a running React Native app still
 need app-level verification.
 
-Before a release, update both npm versions and the changelog, run validation,
-inspect `npm pack --workspaces --dry-run`, and create a new Swift package tag
-containing the adapters. Publishing and tagging are separate maintainer actions.
+### Automatic releases
+
+Every push to `main` runs the JavaScript and Apple checks, then creates a GitHub
+release with a Swift Package Manager tag, both npm package tarballs, SHA-256
+checksums, and generated release notes. Pull requests and other branches only
+validate. A failed check prevents publication. Push runs are not cancelled by
+newer pushes.
+
+Versions use `0.1.<GitHub workflow run number>` (for example, `v0.1.12`). This
+keeps versions unique without bot commits to `main`; numbers can have gaps due
+to pull requests or failed runs. Retrying the same run reuses its version,
+recovers an incomplete draft, and leaves an already published release intact.
+The tag points to the exact validated commit. npm tarball manifests and their
+lockfile workspace entries are stamped during packaging; source manifests keep
+the development version. Change the `0.1` release line in
+`scripts/prepare-release.mjs` when planning a minor or major version change.
+
+After the workflow is pushed to GitHub, no extra secret is needed: it uses the
+repository's `GITHUB_TOKEN` with release-job-only `contents: write`. Repository
+rules must permit the workflow to create version tags. These releases do not
+publish to the npm registry. Install the `.tgz` assets from a GitHub release;
+Swift consumers can select its version tag in Xcode.
 
 ## Contribute
 
