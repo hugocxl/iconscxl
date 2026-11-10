@@ -3,6 +3,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
+import { resolve } from 'node:path';
 
 const registry = 'https://registry.npmjs.org';
 
@@ -21,7 +22,7 @@ export function verifyIntegrity(metadata, integrity, name, version) {
 
 export async function publishPackage({ name, version, file, integrity }, {
   lookup = registryVersion,
-  publish = file => execFileSync('npm', ['publish', file, '--access', 'public', '--provenance', '--registry', registry], { stdio: 'inherit' }),
+  publish = file => execFileSync('npm', ['publish', resolve(file), '--access', 'public', '--provenance', '--registry', registry], { stdio: 'inherit' }),
   pause = () => new Promise(resolve => setTimeout(resolve, 5000)),
 } = {}) {
   const existing = await lookup(name, version);
