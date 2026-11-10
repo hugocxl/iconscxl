@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Adapt reference geometry, then simplify by hand for Tab Icons.
+"""Adapt reference geometry, then simplify by hand for CXL Icons.
 
 Usage: python3 -I scripts/icons/adapt-brand.py SOURCE.svg OUT.svg
        [--box 14] [--margin 1] [--decimals 2] [--keep-subpaths] [--duo]

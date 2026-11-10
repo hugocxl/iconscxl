@@ -1,0 +1,4 @@
+import { createElement, forwardRef } from "react";
+export const LaptopIcon = /*#__PURE__*/ forwardRef(function LaptopIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement("svg", {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, "aria-hidden": props["aria-label"] || props["aria-labelledby"] ? undefined : true, ...props, ref} ,createElement("path", {"clipRule": "evenodd", "d": "M3.25 2C2.00736 2 1 3.00736 1 4.25V12.5H15V4.25C15 3.00736 13.9926 2 12.75 2H3.25ZM2.5 4.25C2.5 3.83579 2.83579 3.5 3.25 3.5H12.75C13.1642 3.5 13.5 3.83579 13.5 4.25V11H2.5V4.25Z", "fill": "currentColor", "fillRule": "evenodd"}), createElement("path", {"d": "M16 13H0C0 13.8284 0.671573 14.5 1.5 14.5H14.5C15.3284 14.5 16 13.8284 16 13Z", "fill": "currentColor"}));
+});

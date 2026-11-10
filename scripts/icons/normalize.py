@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Canonicalize and validate Tab Icons: python3 -I scripts/icons/normalize.py FOLDER.
+"""Canonicalize and validate CXL Icons: python3 -I scripts/icons/normalize.py FOLDER.
 
 Files are processed recursively, in sorted order. Invalid files are left intact;
 valid files are rewritten only if their bytes change. No geometry is rewritten.

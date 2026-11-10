@@ -1,0 +1,5 @@
+import { createElement, forwardRef } from "react";
+import { Svg, Path, Circle } from "react-native-svg";
+export const ArrowDownIcon = /*#__PURE__*/ forwardRef(function ArrowDownIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement(Svg, {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, ...props, ref} ,createElement(Path, {"d": "M13.78033 8.46967C13.48744 8.17678 13.01256 8.17678 12.71967 8.46967L8.75 12.4393L8.75 1.75C8.75 1.33579 8.41421 1 8 1C7.58579 1 7.25 1.33579 7.25 1.75L7.25 12.4393L3.2803 8.46967C2.9874 8.17678 2.5126 8.17678 2.2197 8.46967C1.9268 8.76256 1.9268 9.23744 2.2197 9.53033L7.46967 14.7803C7.76256 15.0732 8.23744 15.0732 8.53033 14.7803L13.78033 9.53033C14.07322 9.23744 14.07322 8.76256 13.78033 8.46967Z", "fill": "currentColor"}));
+});

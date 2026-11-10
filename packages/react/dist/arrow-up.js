@@ -1,0 +1,4 @@
+import { createElement, forwardRef } from "react";
+export const ArrowUpIcon = /*#__PURE__*/ forwardRef(function ArrowUpIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement("svg", {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, "aria-hidden": props["aria-label"] || props["aria-labelledby"] ? undefined : true, ...props, ref} ,createElement("path", {"d": "M2.21967 7.53033C2.51256 7.82322 2.98744 7.82322 3.28033 7.53033L7.25 3.5607L7.25 14.25C7.25 14.66421 7.58579 15 8 15C8.41421 15 8.75 14.66421 8.75 14.25L8.75 3.5607L12.7197 7.53033C13.0126 7.82322 13.4874 7.82322 13.7803 7.53033C14.0732 7.23744 14.0732 6.76256 13.7803 6.46967L8.53033 1.2197C8.23744 0.9268 7.76256 0.9268 7.46967 1.2197L2.21967 6.46967C1.92678 6.76256 1.92678 7.23744 2.21967 7.53033Z", "fill": "currentColor"}));
+});

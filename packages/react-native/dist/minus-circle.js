@@ -1,0 +1,5 @@
+import { createElement, forwardRef } from "react";
+import { Svg, Path, Circle } from "react-native-svg";
+export const MinusCircleIcon = /*#__PURE__*/ forwardRef(function MinusCircleIcon({size = 16, color = "currentColor", ...props}, ref) {
+  return createElement(Svg, {...{"fill": "none", "viewBox": "0 0 16 16"}, width: size, height: size, color, ...props, ref} ,createElement(Path, {"clipRule": "evenodd", "d": "M15 8C15 11.86599 11.86599 15 8 15C4.13401 15 1 11.86599 1 8C1 4.13401 4.13401 1 8 1C11.86599 1 15 4.13401 15 8ZM13.5 8C13.5 11.03757 11.03757 13.5 8 13.5C4.96243 13.5 2.5 11.03757 2.5 8C2.5 4.96243 4.96243 2.5 8 2.5C11.03757 2.5 13.5 4.96243 13.5 8Z", "fill": "currentColor", "fillRule": "evenodd"}), createElement(Path, {"d": "M5.75 7.25H10.25C10.66421 7.25 11 7.58579 11 8V8C11 8.41421 10.66421 8.75 10.25 8.75H5.75C5.33579 8.75 5 8.41421 5 8V8C5 7.58579 5.33579 7.25 5.75 7.25Z", "fill": "currentColor"}));
+});

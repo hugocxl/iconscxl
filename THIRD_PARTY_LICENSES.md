@@ -1,6 +1,6 @@
 # @pierre/icons 0.9.0 (Apache 2.0)
 
-Tab Icons adapts and extends Pierre Computer Company's UI icons.
+CXL Icons adapts and extends Pierre Computer Company's UI icons.
 Source: https://github.com/pierrecomputer/icons
 
                                  Apache License

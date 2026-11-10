@@ -2,10 +2,27 @@ name: Validate
 on: [push, pull_request]
 permissions:
   contents: read
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
-  icons:
-    runs-on: macos-latest
+  packages:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: scripts/validate.sh
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: npm run validate
+  swift:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: xcodebuild -scheme TabIcons -destination 'platform=macOS' -derivedDataPath /tmp/cxl-icons-macos test
+      - run: xcodebuild -scheme TabIcons -destination 'generic/platform=iOS Simulator' -derivedDataPath /tmp/cxl-icons-ios CODE_SIGNING_ALLOWED=NO build
       - run: swift scripts/icons/render-sheet.swift icons /tmp/tab-icons-preview.png --size 16 --scale 2
