@@ -130,7 +130,7 @@ import { SearchIcon } from '@hugocxl/iconscxl/react-native';
 Native components accept `react-native-svg` props and refs. No SVG transformer
 or custom Metro configuration is needed. Install iOS pods using your app's
 normal workflow. To create a local package tarball, run `npm ci`,
-`npm run generate`, then `npm pack --workspace @hugocxl/iconscxl-native`.
+`npm run generate`, then `npm pack --workspace @hugocxl/iconscxl`.
 
 Both JavaScript packages ship typed ESM with per-icon exports and tree shaking.
 The peer ranges are compatibility declarations; CI checks the versions in the
