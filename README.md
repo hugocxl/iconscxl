@@ -1,6 +1,6 @@
 # IconsCXL
 
-550 rounded, duotone-first icons for product interfaces, developer tools, files,
+550 rounded icons with selective duotone for product interfaces, developer tools, files,
 and brands. The 469 UI icons also have Solid and Stroke drawings (1,488 SVGs
 total). Use the artwork directly or consume the generated Swift, React, and
 React Native adapters. The original collection was adapted and extended for [Tab](https://github.com/hugocxl/tab).
@@ -30,7 +30,9 @@ git clone https://github.com/hugocxl/iconscxl.git
 
 Icons use `currentColor` and filled vector geometry. New UI symbols use a
 16 × 16 canvas; preserve the viewBox and aspect ratio when sizing legacy assets.
-Duotone is the default, using opacity for a secondary layer of the same tint.
+The default uses duotone only for meaningful surfaces or depth. Linear symbols
+such as arrows and chevrons use one opaque tint; Pencil and Trash retain their
+secondary body fill. Existing default and `/duotone` imports select this treatment.
 Solid and Stroke artwork lives in `icons/styles/solid` and `icons/styles/stroke`.
 
 Inline an SVG in HTML to inherit CSS `color`. When loading SVGs through an
@@ -157,7 +159,8 @@ import { SearchIcon as StrokeSearchIcon } from '@hugocxl/iconscxl/react/stroke/s
 The same style paths work under `/js` and `/react-native`. Explicit `/duotone`
 and `/duotone/search` imports are aliases of the default artwork. Use
 `@hugocxl/iconscxl/catalog.json` to inspect names, categories, keywords, provenance,
-and supported styles. Style namespaces remain tree-shakeable.
+supported styles, and `defaultTone` (`monochrome` or `duotone`).
+Style namespaces remain tree-shakeable.
 
 ```swift
 Icon.search.image         // Rounded Duotone

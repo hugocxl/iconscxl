@@ -1,6 +1,6 @@
 # IconsCXL design system
 
-IconsCXL is a rounded, duotone-first family for product interfaces. The expanded
+IconsCXL is a rounded family with selective duotone for product interfaces. The expanded
 foundation contains 550 names in 19 categories, including 469 original UI symbols
 and 81 retained brand marks. There are 343 new names and 126 redrawn existing UI
 symbols. [The generated catalog](CATALOG.md) defines the delivered set;
@@ -30,11 +30,25 @@ contours. Smaller interior details may use 1–1.2 units; dense document labels 
 0.8. Shapes are fitted by their actual bounds, including outlines, rather than
 by their control points. Curves remain curves in the exported SVG.
 
-Duotone uses the same tint at two opacity levels. Body symbols use a 0.24
-secondary silhouette and an opaque outline/detail layer. Linear symbols use
-0.4 for a subordinate segment and 1 for the identifying segment. Boolean
-subtraction removes overlaps between the layers so alpha does not compound.
-No common background tile is added to unrelated UI symbols.
+Duotone is selective, not a requirement to use two opacity levels in every icon.
+A second tone must clarify a distinct surface, an overlapping plane, or physical
+depth. It must never divide a continuous stroke or arbitrarily emphasize one
+arm, bar, arrowhead, dot, or segment. Arrows, chevrons, checks, mathematical
+marks, text controls and other linear glyphs use one fully opaque tint.
+
+Body symbols such as Pencil and Trash retain a 0.24 secondary surface and an
+opaque outline/detail layer. Non-outlined glyphs are monochrome by default;
+`DUOTONE_GLYPHS` in the recipe contains only reviewed depth-based exceptions.
+Layers uses a 0.4 receding plane behind an opaque foreground sheet. Chart Donut
+uses opaque sectors with visible radial gaps; data segmentation alone does not
+justify faded geometry. Boolean subtraction removes overlaps between tone
+layers so alpha does not compound. No common background tile is added to
+unrelated UI symbols. Legacy brand tiles remain a separate containing surface.
+
+The existing default and `/duotone` import paths remain stable. They select this
+family's default treatment, which may be monochrome. `catalog.json` records
+`defaultTone` as `monochrome` or `duotone` for every name; validators check that
+actual opacity matches the declared decision.
 
 Names are lower kebab-case, with direction and state suffixes. Common nouns
 come first (`calendar-check`, `folder-lock`, `cloud-download`). Existing names
@@ -47,7 +61,7 @@ names. They do not represent distinct new concepts.
 
 | Style | Construction | Coverage |
 | --- | --- | --- |
-| Rounded Duotone | Secondary mass with primary contours/details | All 550 names |
+| Rounded Duotone | Selective surface depth; opaque linear symbols | All 550 names |
 | Rounded Solid | Filled silhouette with negative-space details | 469 UI names |
 | Rounded Stroke | Expanded contour and identifying detail lines | 469 UI names |
 
@@ -92,7 +106,7 @@ library. Do not patch platform adapters or asset catalog copies by hand.
 
 Before accepting an addition:
 
-1. Check its silhouette and meaning at 16, 24, and 32 points beside related icons.
+1. Justify every secondary tone by a distinct surface or depth plane. Reject arbitrary split strokes. Check silhouette and meaning at 16, 24, and 32 points beside related icons.
 2. Inspect dark and light tinting, counters, diagonals, small gaps, and badges.
 3. Inspect each supported style independently; negative-space Solid details must
    remain readable, and Stroke must preserve identifying interior information.
@@ -111,3 +125,6 @@ negative interior details; complex occlusion is authored explicitly. Round body
 corners, high-resolution stroke expansion and area-checked Boolean operations
 prevent the geometric failures found in that review. Review hashes are checked
 by validation; changed artwork must be rendered and inspected again.
+
+The [selective-duotone review](TONE-REVIEW.md) records the subsequent tone-policy
+correction, reviewed changes, and regression protection.

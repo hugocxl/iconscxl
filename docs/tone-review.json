@@ -1,0 +1,2315 @@
+{
+  "date": "2026-11-11",
+  "scope": "selective-tone",
+  "rule": "Secondary tone only for distinct surfaces or depth; continuous marks use one opaque tint.",
+  "reviewers": "Three GPT-6.1 Sol agents at medium reasoning, with coordinator review of before/after examples and chart clearance.",
+  "renderer": "AppKit NSImage, 16/24/32 pt, light/dark, 1x/2x",
+  "changedDefaultIcons": 118,
+  "changedSVGs": 120,
+  "counts": {
+    "monochrome": 118,
+    "duotone": 432
+  },
+  "geometryChanges": {
+    "chart-donut": "Opaque sectors use radial negative-space dividers to retain chart structure.",
+    "trending-down": "Raised arrowhead clear of chart baseline in all three styles, preventing the opacity change from exposing the existing collision."
+  },
+  "knownDesignFindings": "Earlier strict audit remains a historical baseline. Trending-down baseline collision is corrected; its other unresolved geometry/semantics findings remain open. This review approves the tone change and necessary clearance corrections, not the whole design system.",
+  "icons": [
+    {
+      "name": "accessibility",
+      "result": "pass",
+      "assessment": "Head, outstretched arms and legs are uniformly opaque; head separation and body junction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/14-01.png",
+        "review/tone-after/2x/14-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "71f85c813db829bd58e66265bfec3496ac479dfaf4be211eb4f63f05967a207f"
+      },
+      "sha256": {
+        "duotone": "8888a472cc12ad956524ff57eff80a74d5e00e1a6d9b36853a3ab68eb1db4948"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "align-center",
+      "result": "pass",
+      "assessment": "All horizontal rows have equal contrast; row gaps and the alignment silhouette remain clear, including the smallest light/dark cells. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "2a1e9782ba8e290126974e40325a8ff81aab9b723e729f457dc95584de7d2470"
+      },
+      "sha256": {
+        "duotone": "1f933e44965e7fc4c0d209887ba61307f94b49610e42a1d77c3c7fa8953c28bd"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "align-justify",
+      "result": "pass",
+      "assessment": "All horizontal rows have equal contrast; row gaps and the alignment silhouette remain clear, including the smallest light/dark cells. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "510d0fb8b46e2e907504cdc3a9745ca7edca9c7af937dc30c5008b79df1fcb48"
+      },
+      "sha256": {
+        "duotone": "240e263c893b0c64668fedc920ef8405d454db9d340934e19238c1befa0c2ece"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "align-left",
+      "result": "pass",
+      "assessment": "All horizontal rows have equal contrast; row gaps and the alignment silhouette remain clear, including the smallest light/dark cells. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "160379e63282604454a580f86f234f3f01405cb7ef83c65a9c9e11245eb8db85"
+      },
+      "sha256": {
+        "duotone": "4f380e8a72c9e721bfc7632490bdd54dc6278b893ea6d681c8e116042382ae23"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "align-right",
+      "result": "pass",
+      "assessment": "All horizontal rows have equal contrast; row gaps and the alignment silhouette remain clear, including the smallest light/dark cells. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "105612192f12e683de1fd8ec01b05e97217f56536d8e8785ba784c28ab1a708a"
+      },
+      "sha256": {
+        "duotone": "ef7cebc6b6dd92177cad4629d4c22f478e484f567facc49ccc7615b5054592d3"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "arrow-down",
+      "result": "pass",
+      "assessment": "Shaft and arrowhead are uniformly opaque; continuous join, both head arms and intended direction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "f3520a76ca41680f420c87ad12be23a919479887af4797df5f20fc624b87a52c"
+      },
+      "sha256": {
+        "duotone": "a2e27b227dd9327c7eaec9ac33238ef3eb795abcf37402498ab0ea4e08385696"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "arrow-down-left",
+      "result": "pass",
+      "assessment": "Shaft and arrowhead are uniformly opaque; continuous join, both head arms and intended direction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "a337c7817236df957071157f504b2b3a444f8b6d0d527f8e932cdf884f6306a7"
+      },
+      "sha256": {
+        "duotone": "1137836865babae0d4f40a1b12f4be6b4de514c3785b4d3162c7012046973ac4"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "arrow-down-right",
+      "result": "pass",
+      "assessment": "Shaft and arrowhead are uniformly opaque; continuous join, both head arms and intended direction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "e0830b4d268519137ad855d72f5f62451f06f05f21b5e2434633f5a6530be460"
+      },
+      "sha256": {
+        "duotone": "1bb5eac438fe70a2bce8060aed318ee32e45bceb11015f084ee07d9607fb0777"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "arrow-left",
+      "result": "pass",
+      "assessment": "Shaft and arrowhead are uniformly opaque; continuous join, both head arms and intended direction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "5fd4a4317589caa71bd1d47ebe5eed53230604b3e312d4a1c8380e0dad63c174"
+      },
+      "sha256": {
+        "duotone": "a211152cd001ae1ee2ae16d6d3820808c7f20f7770bf4414ba1d077e0420cd68"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "arrow-right",
+      "result": "pass",
+      "assessment": "Shaft and arrowhead are uniformly opaque; continuous join, both head arms and intended direction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "01be1131a618f554858b70244d2fa839869e63f258d2dd8fe1a0c664580f5cb4"
+      },
+      "sha256": {
+        "duotone": "2e624ec914aad7e998625202bcddb61f1464729661b68ec91e228912bc962590"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "arrow-up",
+      "result": "pass",
+      "assessment": "Shaft and arrowhead are uniformly opaque; continuous join, both head arms and intended direction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "f90720279d41e2dec3d74ce4ea2da1e577c374f3578a926a725d7fc648c17827"
+      },
+      "sha256": {
+        "duotone": "050bd1e3be303846eeba380a0a796a1ab95100324e9d0ad7feca4769be399efc"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "arrow-up-left",
+      "result": "pass",
+      "assessment": "Shaft and arrowhead are uniformly opaque; continuous join, both head arms and intended direction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "b864bce2f7e474df1ebc75ffc86d727b9d64a25baf69ada433e4b29773d87a1e"
+      },
+      "sha256": {
+        "duotone": "3395cb08d26f24493059681d180b88741fc124adacfb97d2fd83173ea88b84c2"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "arrow-up-right",
+      "result": "pass",
+      "assessment": "Shaft and arrowhead are uniformly opaque; continuous join, both head arms and intended direction remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "ee72f3509a0c0f60ae83b162cd199d99ce701a5bcd219b46a840a0d2aebcd006"
+      },
+      "sha256": {
+        "duotone": "ee1a78c967702128758e8dd0d1362abe9a80ba66708685784fde0c437654a1c1"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "at-sign",
+      "result": "pass",
+      "assessment": "Outer loop and inner letter remain distinct through the open counter; one-tone union is clear. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/04-01.png",
+        "review/tone-after/2x/04-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "a6e0f99c765d44093defb4aa73b75d3490b4db2c25685f8a934e08d4cb4da034"
+      },
+      "sha256": {
+        "duotone": "fe3fc69c37978b54d0e2279c10d4bfa064cf04eabd645c4559105cd630803d15"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "atom",
+      "result": "pass",
+      "assessment": "Orbital loops, central nucleus and surrounding small counters remain readable; no new opaque blob. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/19-01.png",
+        "review/tone-after/2x/19-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "422cd216374936764c409291e898549702718ad7ebc37616a7372bf06bb6255c"
+      },
+      "sha256": {
+        "duotone": "922629794e5c55342d5697cdfa9c5825c3d71a8231c29da3e3bbaa1cc80c3523"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "bicycle",
+      "result": "pass",
+      "assessment": "Wheels and frame are uniformly opaque; wheel interiors and frame openings remain visible. No new ambiguous merge relative to baseline. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/11-01.png",
+        "review/tone-after/2x/11-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "b4bd423a5fedcc7979cee3908176ad911987075bfabccdc7f4df24c51ee7a407"
+      },
+      "sha256": {
+        "duotone": "768fd9772c2953a4496defa7a710b48f6e1afa2714be3f600d87473030b75f76"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "bluetooth",
+      "result": "pass",
+      "assessment": "All rune segments and two triangular counters remain intact in uniform tone. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/16-01.png",
+        "review/tone-after/2x/16-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "dfe5d97f55d6958cc94f0870bf4e9ba8241ccea5143493bb7847819c2285d8c0"
+      },
+      "sha256": {
+        "duotone": "12f8036cb5f4e78af08e1c95eac68c2dcfb39e72e75cd1f7dafaf27449576bf7"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "bluetooth-off",
+      "result": "pass",
+      "assessment": "Rune and slash remain readable; slash clearance preserves separation. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/16-01.png",
+        "review/tone-after/2x/16-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "c826cfda422c97d118ce458606934d19b34bced4f4577d28ae118fc3bfa8f75a"
+      },
+      "sha256": {
+        "duotone": "3d6083e714d951d04cfee201901a26aebb080b9b8f600b1d33fd84df4782f77d"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "bold",
+      "result": "pass",
+      "assessment": "All constituent letter or sign strokes are opaque; counters, crossings and adjacent character gaps remain readable without new fills or closures. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "806bfa95a8e6a93a9495f3fec75b6be588b9463654646839b00fede4a6a4f214"
+      },
+      "sha256": {
+        "duotone": "6d8ecbfe905db540461f0612d7eea16c021466278163461feb2298a37997468c"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "braces",
+      "result": "pass",
+      "assessment": "Both curly braces retain equal emphasis and separated silhouettes. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/16-01.png",
+        "review/tone-after/2x/16-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "81f09b577e3cdc6ab9dabf0b90782d7220ebb95a99ff85009767581056da2c92"
+      },
+      "sha256": {
+        "duotone": "707d6008d40548513ac35829e9fa54cca8dcd597672e079a5e19000fdce3588e"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chart-area",
+      "result": "pass",
+      "assessment": "Axes and plotted masses are uniformly opaque; the baseline and left axis remain distinct from the area/bars through the existing gaps. No newly closed space or lost data contour. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/03-01.png",
+        "review/tone-after/2x/03-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "d111640757f83d6045e12f322653e26b369e452b11687ab567d62b2bed4ccf54"
+      },
+      "sha256": {
+        "duotone": "5f8aa8431b13268cd4deb97c4337d83e4f4b1423111fb6e2c2a8537bd5b96957"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chart-bar",
+      "result": "pass",
+      "assessment": "Axes and plotted masses are uniformly opaque; the baseline and left axis remain distinct from the area/bars through the existing gaps. No newly closed space or lost data contour. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/03-01.png",
+        "review/tone-after/2x/03-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "24fdcfd3b312f808cf2afcdafda18d81329541a3962907f9abddcd01ad7c2336"
+      },
+      "sha256": {
+        "duotone": "ebd74d799f3059e6974a75d1e0b1445973af5cfe46db70c5e514d833fb7b3b12"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chart-donut",
+      "result": "pass",
+      "assessment": "Uniform opaque annulus preserves its central aperture and quarter-sector radial gaps at all sizes and both tints; no residual faded sector. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/03-01.png",
+        "review/tone-after/2x/03-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "283f0a53548454be03e0a4bacd1c5f7a89dd6188d239ee55d9188e70cbe46814"
+      },
+      "sha256": {
+        "duotone": "c66073c46799348305a5bcf484ec5c0a5f9e6f89e4686d6d735847e7f4010edd"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chart-line",
+      "result": "pass",
+      "assessment": "Uniform axis/data opacity makes the pre-existing near-contact at the first sample more visually joined, but the chart outline and rising zigzag remain readable at 16/24/32. Compared with strict baseline; no new contour loss or counter closure. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/03-01.png",
+        "review/tone-after/2x/03-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "e7d1e199fa0e12cf1e213d3be509340e6a593eead03589e17a8c68f610705027"
+      },
+      "sha256": {
+        "duotone": "5e28b9d7f4addc3d5ce02a6d9edbe7640124afe8f92df5cf0e1c757a2ae094fb"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "check",
+      "result": "pass",
+      "assessment": "Both check legs now have uniform contrast; continuous joins and the two-check separation remain clear in all six default cells. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/01-01.png",
+        "review/tone-after/2x/01-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "96e9e3976980f3383e569c73312bef7a461da93394987c900ca26775fb57179a"
+      },
+      "sha256": {
+        "duotone": "96158f3f350d7d266a1942541327580f714533e732515f39b98cff1bbce8e4ef"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "check-check",
+      "result": "pass",
+      "assessment": "Both check legs now have uniform contrast; continuous joins and the two-check separation remain clear in all six default cells. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/01-01.png",
+        "review/tone-after/2x/01-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "b0cf5589318258f347856b6fd35c38bc7e2aea9eb5c07c580093d08d1771d00b"
+      },
+      "sha256": {
+        "duotone": "4ad0031d1fb6dd6fd5001d7af109cd9ccae418154197bdd82826d17f690ce08e"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevron-down",
+      "result": "pass",
+      "assessment": "Both chevron arms are uniformly opaque with an intact clean corner; intended direction remains clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "d3eee6c98c414f9819534373ceef01851b06411e530b3856a23637c81524cef3"
+      },
+      "sha256": {
+        "duotone": "4c4f395404e4960153187007b7b11947613f0feb27eb0feb0807da50cac915cd"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevron-down-left",
+      "result": "pass",
+      "assessment": "Both chevron arms are uniformly opaque with an intact clean corner; intended direction remains clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "f3155a41f480568fdbb3d21154501b928da6f11998e3cb8c14fd14f95122f355"
+      },
+      "sha256": {
+        "duotone": "e5699be8786beeddf1a18dd9c86cc4260565ad2d64c056fa8a4037a1c6df18af"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevron-down-right",
+      "result": "pass",
+      "assessment": "Both chevron arms are uniformly opaque with an intact clean corner; intended direction remains clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "1610461471b537db7f51fb8548f3f48b91127079abad2eb337add402881cd069"
+      },
+      "sha256": {
+        "duotone": "5482a894f1c1342995d90a7123026afb333eac9ec81035afeb561ae0fe34851b"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevron-left",
+      "result": "pass",
+      "assessment": "Both chevron arms are uniformly opaque with an intact clean corner; intended direction remains clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "d3a549152be3bf02072599385357e60e79b23eeae34a1e76a84de5f3c2d6c5f6"
+      },
+      "sha256": {
+        "duotone": "0aad7f611bb73be625ab0fc35314a30cd76f751cafc12239c3bf3c547f6c579d"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevron-right",
+      "result": "pass",
+      "assessment": "Both chevron arms are uniformly opaque with an intact clean corner; intended direction remains clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "135752d8a1c973f05e7fc5947fbf0e0a38d8abb367ef07aec437bec33dbbed06"
+      },
+      "sha256": {
+        "duotone": "43f7ffd0e2e9b6bc618c623e843f10f0d280fc51012a6a28186cadcbf75da680"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevron-up",
+      "result": "pass",
+      "assessment": "Both chevron arms are uniformly opaque with an intact clean corner; intended direction remains clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "9015be58fcc5550f6274cf6edb71a89d886e6575f38e9fd034e8173c04fa8ea8"
+      },
+      "sha256": {
+        "duotone": "11c7cc78910c8cd20555ace02c9f84a883fbb2bc89732191759d889890a17f3f"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevron-up-left",
+      "result": "pass",
+      "assessment": "Both chevron arms are uniformly opaque with an intact clean corner; intended direction remains clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "018c494bb046e95bbe994c07ca6115e78f7b4f5456fadfd584ef446af6f135a7"
+      },
+      "sha256": {
+        "duotone": "22b4fbdb5ae6f23143bcdb277b62c4b17c8e679f2cabb27d1d71ecbbfee54968"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevron-up-right",
+      "result": "pass",
+      "assessment": "Both chevron arms are uniformly opaque with an intact clean corner; intended direction remains clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "e46c0bdd162f007899b094759889e191a229091b7cd545d75fdd1650b17820b1"
+      },
+      "sha256": {
+        "duotone": "d1c855388bd2a5e53d1b32fc64ff64cbec4d322f082e4ce03037cf79bb64ca5b"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevrons-down",
+      "result": "pass",
+      "assessment": "Both downward chevrons are uniformly opaque; individual corners and gap between chevrons remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "68fdb081465a4b1606de8b9d765cd25643e8d2a132d8054f79f970045bfd1302"
+      },
+      "sha256": {
+        "duotone": "b51d7b0b3a174979cfef66903965745eec0d627c6e330ab02f15d48c4a055ad7"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevrons-in",
+      "result": "pass",
+      "assessment": "Both inward chevrons are uniformly opaque; central gap and individual corners remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/13-01.png",
+        "review/tone-after/2x/13-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "2850f6287d95ac67abe08d8c0103205a1e9a61935209f5154c87d05ea9ef2f18"
+      },
+      "sha256": {
+        "duotone": "983aa01e96dfb507bc1b3ce970aa377b94df86e7dd16c9171969ef6d27f421f0"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevrons-left",
+      "result": "pass",
+      "assessment": "Both chevrons and their legs share uniform contrast; the inter-chevron gap remains open at all sizes and tints. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "09b29f874c4d3de4badf767f4409d4fda2724411a915bf7b7dbcab199a299fcf"
+      },
+      "sha256": {
+        "duotone": "6db3fb56b0303cbee61acf711d7f055d8bc93da70b9bec85f3b4827228907aeb"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevrons-right",
+      "result": "pass",
+      "assessment": "Both chevrons and their legs share uniform contrast; the inter-chevron gap remains open at all sizes and tints. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "ca31e9b26ff30cd279bb246185f7ff4ec3056aa2417ceb71a72727b9a78a6bf0"
+      },
+      "sha256": {
+        "duotone": "35a866eb7b29639a8b22e9b5359bdd641f150c0aa8ae651b4b92aba4f8fbaf5b"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevrons-up",
+      "result": "pass",
+      "assessment": "Both chevrons and their legs share uniform contrast; the inter-chevron gap remains open at all sizes and tints. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "dca99c2397997bc932ee78078cc4198946efcca70675ecfdb9a5574f814dd162"
+      },
+      "sha256": {
+        "duotone": "c183142523582ecaf3c605a31827afbeaab164c02e5f2b04f341195875b1aee7"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "chevrons-up-down",
+      "result": "pass",
+      "assessment": "Both chevrons and their legs share uniform contrast; the inter-chevron gap remains open at all sizes and tints. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "0ceed7de96a578cc8a3ad81abd6d2834d7fac0757426c4ab54e253c2ee735512"
+      },
+      "sha256": {
+        "duotone": "f55cf07522a45f7297a649abae8d90602a3c503d0d3aa6ae71613354cd31e7f2"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "close",
+      "result": "pass",
+      "assessment": "Crossing strokes now share one tone; full X silhouette remains readable. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/01-02.png",
+        "review/tone-after/2x/01-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "b0d5c52ce6a622e02d015a94d2dec09399036391ec207287c2410685290b2c99"
+      },
+      "sha256": {
+        "duotone": "1728d73a2e28c873eeeb76dff685db622613fe765ecbc68d4b5c914fea0b4037"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "code",
+      "result": "pass",
+      "assessment": "Both chevrons and diagonal slash retain separation and uniform emphasis. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/16-01.png",
+        "review/tone-after/2x/16-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "922335e09d68bbfd516e2f2802395a572061595b36f340aa7208672d82a75330"
+      },
+      "sha256": {
+        "duotone": "080788bd00bead86edd08340228d27401259f7430dc34d0130be3692de4e8d88"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "command",
+      "result": "pass",
+      "assessment": "Four loops and connecting bars are uniformly opaque; all four corner openings and central opening remain visible. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/16-02.png",
+        "review/tone-after/2x/16-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "f16e32bc7aec3dae9b720d3de9d7065b065613f6dfcaa31ea8929fb046e3df6a"
+      },
+      "sha256": {
+        "duotone": "fc93d69679a1651de67edc47baff173e3d25331ad7bcd87fb315f9cf35200710"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "crop",
+      "result": "pass",
+      "assessment": "The crossing crop boundaries retain the open extensions and central square with uniform contrast; no new unintended mass. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "a798afb26c4553c05b44fcf6d8a0a2f0cce47959eb528e2657a4e220f24ea6a9"
+      },
+      "sha256": {
+        "duotone": "3b3537e24654af65dd61b945cbaab20f5e13c8ef17befe0085ff8c9f67e5a958"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "dot",
+      "result": "pass",
+      "assessment": "Uniform filled disk replaces the artificial central accent; circular silhouette is intact. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/01-02.png",
+        "review/tone-after/2x/01-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "f1a0f0a69f48dcdce24e57643cfe0a883a05ad309998bcc4bec6ca2260ee05fa"
+      },
+      "sha256": {
+        "duotone": "ecd61d3b66f15741de3b21ed152a2d25e84819350f4a9f8ccaab7443c121ba96"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "download",
+      "result": "pass",
+      "assessment": "Tray and arrow retain their separation and full outline in one tone. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/01-02.png",
+        "review/tone-after/2x/01-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "ef3115c33acb09d943f550f36275365114c8778550a541660d121648406d438f"
+      },
+      "sha256": {
+        "duotone": "659c4bb1ea94f21866c217f13cf0762d638832d14fc294d868aca89a2a699c04"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "dumbbell",
+      "result": "pass",
+      "assessment": "Bar and weight plates are uniformly opaque; plate separation and silhouette remain legible. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/08-01.png",
+        "review/tone-after/2x/08-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "df5d12bbc5fa061eebdf81faf7bc117c498c7abd61092a0e41193473b02ea3e4"
+      },
+      "sha256": {
+        "duotone": "e8d4d6887b7c900df8c0a27560115391be2c9bed08d664df79c69f1a8aa6726c"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "ellipsis",
+      "result": "pass",
+      "assessment": "Three equally weighted, separated dots remain clear. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/01-02.png",
+        "review/tone-after/2x/01-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "dac464ff69a7de44d71381abe052f9b7d6d601f9bcdf690bf39a6bbb2898c8ff"
+      },
+      "sha256": {
+        "duotone": "26f8af004516fb2e26d1a3af81760898c4edf8f59146e99531cb4fb50453627d"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "ellipsis-vertical",
+      "result": "pass",
+      "assessment": "Three equally weighted, vertically separated dots remain clear. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/01-02.png",
+        "review/tone-after/2x/01-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "b0044b10df0a7c6b4afd1eaafa3073f8b93a2027aa4cd78aa943e0ae4fbc50fd"
+      },
+      "sha256": {
+        "duotone": "c8be8f593a5d4b2b697c27ad14432a47b86dc44db1df6f60b0791700c464faf6"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "external-link",
+      "result": "pass",
+      "assessment": "Frame and diagonal outward arrow retain the broken top/right opening and clear arrowhead after becoming uniformly opaque. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "166c1133bbb09c5b34da8ccf92e29b14c003276dcbcabcc43b760768404bd5dd"
+      },
+      "sha256": {
+        "duotone": "3640513a9257349d4e9c52632232873409b607856c658be2717ae224a10a0209"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "fast-forward",
+      "result": "pass",
+      "assessment": "Both triangles share equal contrast and retain separate readable silhouettes at 16/24/32 in both tints. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/12-01.png",
+        "review/tone-after/2x/12-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "6bd39ea7be7973fd31cf69c2ae94f934ecaea2ed34a600c1814782afb56ed382"
+      },
+      "sha256": {
+        "duotone": "a779f9eeddfcc69bc080fdb7ffd16bf86825806771ebe10635482459cf70a7bb"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "fingerprint",
+      "result": "pass",
+      "assessment": "All ridges have uniform contrast; nested ridge gaps stay open at both densities, including the smallest light/dark cells. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/15-01.png",
+        "review/tone-after/2x/15-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "bb9e608141d4fb738910a809cfdbdc21135eaf207d9701ef838469ad3572bcc2"
+      },
+      "sha256": {
+        "duotone": "50f3bc7cb31979206b0f442ebe4847129c1c1a82a66cf9bbc87e6fd1bf22781c"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "fold-vertical",
+      "result": "pass",
+      "assessment": "Both chevrons and center separator are uniformly opaque and remain separated. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/16-02.png",
+        "review/tone-after/2x/16-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "3c2765dba24f38760ccc417cfd231830679bca9e8fbdff0339f302eef3cc42b5"
+      },
+      "sha256": {
+        "duotone": "73411d3d94ceb81acd99b91ad7d0c92d20781aa908a1f5299dbb81d92ad880ec"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "font",
+      "result": "pass",
+      "assessment": "All constituent letter or sign strokes are opaque; counters, crossings and adjacent character gaps remain readable without new fills or closures. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "4953c994f12347b3d8ae70c684b9d771b5d678475f16e51cdd952f9207b738e6"
+      },
+      "sha256": {
+        "duotone": "fc38b996becda668ca636e163081fa79c944e9aced4fb59512d34af0ef68e480"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "footprints",
+      "result": "pass",
+      "assessment": "Both soles and detached heels are consistently opaque; spacing and footprint shapes survive. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/08-01.png",
+        "review/tone-after/2x/08-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "4b42c38ce9988b09f57cda18ad8bc7bab6dde0e2abb57a4e97081e18d43fbd6d"
+      },
+      "sha256": {
+        "duotone": "c9c4247b4083eba0844b3b4d5f635b04af8a6e5713cd9eb85012748251918e82"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "fullscreen",
+      "result": "pass",
+      "assessment": "All four corners retain equal emphasis and clear separation. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/10-01.png",
+        "review/tone-after/2x/10-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "35ee67c79b4e502bb4c54b9f1c95be347543c6b3d6de5cbcdb703d1c63c45293"
+      },
+      "sha256": {
+        "duotone": "c415208992876a0bc5ddcf37c36a9986f0101279f09c6c6a71f55ed75354dfc9"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "git-compare",
+      "result": "pass",
+      "assessment": "Both opposing arrows retain separate shafts and arrowheads with equal contrast; no new join. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/03-01.png",
+        "review/tone-after/2x/03-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "42474bdb28c8e8a1d9fd64e001913884317112b085ac96bf122b1d42debc9f84"
+      },
+      "sha256": {
+        "duotone": "06decaf6e7713d9d11af7965d72ed47f55878949a9739d71559074ba784be9a1"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "hash",
+      "result": "pass",
+      "assessment": "All constituent letter or sign strokes are opaque; counters, crossings and adjacent character gaps remain readable without new fills or closures. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "0e58cb1253c4c4396d96abb043ee18df6ab53244ff8f5e723a4d8a6264a1766d"
+      },
+      "sha256": {
+        "duotone": "2138cfe13f38270a66fe94b22ff6afc5edef74fc42609783a210ccf74f3900a9"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "heading-1",
+      "result": "pass",
+      "assessment": "All constituent letter or sign strokes are opaque; counters, crossings and adjacent character gaps remain readable without new fills or closures. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "4a59dfbd7b580d3d08ade9e4b3b90600c986946e1b6b1477222200e884b61e19"
+      },
+      "sha256": {
+        "duotone": "4032185384e5f6f5145cb9fb3663e5b9bbd97c9e3f12ec61df401092bf1a83e5"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "heading-2",
+      "result": "pass",
+      "assessment": "All constituent letter or sign strokes are opaque; counters, crossings and adjacent character gaps remain readable without new fills or closures. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "262a046dcd25d67f39bddf82443dbcf2dd34974d04871554588f297255cf2a8b"
+      },
+      "sha256": {
+        "duotone": "4344e7253dfeb7eeb9bd51c0d1b29899b6c23bbb981c0f39588329e144f9f9e6"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "indent",
+      "result": "pass",
+      "assessment": "Rows, markers and directional marks retain their separation and identifying arrangement; no arbitrary faded line or merged marker. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "19943af1be19c4037dc5c7054efb4b5b9be7b75374647197cb10299bbeba5d85"
+      },
+      "sha256": {
+        "duotone": "9e62240d9dae2115c9a5f9ab72c748e0ae805ad6aaf7a2a5a469f5e2d6debfbc"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "infinity",
+      "result": "pass",
+      "assessment": "Both loop counters remain open; central crossing is intact in uniform tone. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/19-01.png",
+        "review/tone-after/2x/19-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "c5ce24facac0c90b4a4c41d1db26aa7518e47fc64199b19ee84ba3277cbae622"
+      },
+      "sha256": {
+        "duotone": "a1fc3fe0cf500ebcc45f6c8e6dfade3e1ee1e67f53f06d55e692a0b37d77894e"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "italic",
+      "result": "pass",
+      "assessment": "All constituent letter or sign strokes are opaque; counters, crossings and adjacent character gaps remain readable without new fills or closures. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "1105c9cb09ce07d22060de9cf463bea5314ee8f2adafc53b0389fb9304a689bc"
+      },
+      "sha256": {
+        "duotone": "c69bfb0a707e823fbf9ec6a52e3b93507aaca3e8c7533d87b1536013538d2c3e"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "link",
+      "result": "pass",
+      "assessment": "Both links and their interior counters remain readable; central overlap adds no new merge. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/01-02.png",
+        "review/tone-after/2x/01-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "d948f14c040a16b72a518c93a458ecfe1ded2f607187a43b33e1b00f634d2ed8"
+      },
+      "sha256": {
+        "duotone": "518bc1feb75033326729d82a2772024f2ffda0af4e76a701a126960ec88986f5"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "list",
+      "result": "pass",
+      "assessment": "Rows, markers and directional marks retain their separation and identifying arrangement; no arbitrary faded line or merged marker. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "70065fbacdf2a8e040170b0b5036dfa14175e4bba970361b995627f83592405f"
+      },
+      "sha256": {
+        "duotone": "879940b0af7961dfce0246aacfa2df6654e05076a82a783238a8bce26cfe0a97"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "list-ordered",
+      "result": "pass",
+      "assessment": "Rows, markers and directional marks retain their separation and identifying arrangement; no arbitrary faded line or merged marker. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "8e5f8215b343ec55bef78e15d1ebde6cd9eb4d862173b56495379400970b92ce"
+      },
+      "sha256": {
+        "duotone": "7e1d2a23582b7e6045709556981715a616b475879e14d42b3f7ef80ad94c9cf4"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "log-in",
+      "result": "pass",
+      "assessment": "Arrow and doorway frame have equal contrast; arrowhead-to-frame spacing remains visible and direction remains clear. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "5b48392933fe3b8e25d251d86e69e4cff5628b1692242ee8750f953cafa70d6c"
+      },
+      "sha256": {
+        "duotone": "feb7a8e3fa39fe422aa97ce32e2a1bd43c7c80ae9384e1b15814d8b7267fa8ba"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "log-out",
+      "result": "pass",
+      "assessment": "Arrow and doorway frame have equal contrast; arrowhead-to-frame spacing remains visible and direction remains clear. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "4727f9fcdecd3322a17c7fb07121189f477efa420caa6da43cde798c9af0f70b"
+      },
+      "sha256": {
+        "duotone": "130ba875e9fa54f81c61b72ddec323b0ef116d60bab404013a1fad09b900d3bf"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "maximize",
+      "result": "pass",
+      "assessment": "Four outward corners remain uniformly weighted and separated. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/10-01.png",
+        "review/tone-after/2x/10-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "424692f1f8b052b07c29fe101e5fc962d23d7b40d56729886168b19bcc9cb0c7"
+      },
+      "sha256": {
+        "duotone": "6fdb3924431c3dac9f31cd6d9f33705e094f3a6ec880bced25d5c99575fabd2a"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "menu",
+      "result": "pass",
+      "assessment": "All three bars have uniform emphasis and remain separated. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/01-02.png",
+        "review/tone-after/2x/01-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "94b86957edc0a500af1e672473d8660a5a55e7fc7c26f95aa1fdf3deb9aee0b9"
+      },
+      "sha256": {
+        "duotone": "827f0d1cc8bd08651a77d322df9693909444cbd54cfad9adc0ccfc6203c7d040"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "minimize",
+      "result": "pass",
+      "assessment": "Four inward corners remain uniformly weighted and separated around the center. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/10-01.png",
+        "review/tone-after/2x/10-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "c1122dffd6166835302015e8ff2c64917fe88ce539fda83dbb73dc3b337d7b9a"
+      },
+      "sha256": {
+        "duotone": "7a3adee4d4b6a28c80dcc07f694421a0ee2314260a428662164fd7c538211ab6"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "minus",
+      "result": "pass",
+      "assessment": "Continuous horizontal mark has uniform opacity with no center seam. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/01-02.png",
+        "review/tone-after/2x/01-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "db1f4a23a9a60babf3cddec7ad5308369ac3986141d2a3accfebd271d5c6df3a"
+      },
+      "sha256": {
+        "duotone": "55178fa455b958861fa85084a4e031c6ce97def36989ac2e403e0a146f695029"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "music",
+      "result": "pass",
+      "assessment": "Note heads, stems and beams now share uniform contrast; both note-head contours and the space below the beam remain recognizable at all sizes. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/12-01.png",
+        "review/tone-after/2x/12-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "80927a073d904440d609dc906dc423acc71ea68ea8700d552e67adc21e1fa837"
+      },
+      "sha256": {
+        "duotone": "925a2e926b6567178eaf48ed8534e1d2eb2c707067e4a4b55a8fa638ec1d4904"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "music-note",
+      "result": "pass",
+      "assessment": "Note heads, stems and beams now share uniform contrast; both note-head contours and the space below the beam remain recognizable at all sizes. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/09-01.png",
+        "review/tone-after/2x/09-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "80927a073d904440d609dc906dc423acc71ea68ea8700d552e67adc21e1fa837"
+      },
+      "sha256": {
+        "duotone": "925a2e926b6567178eaf48ed8534e1d2eb2c707067e4a4b55a8fa638ec1d4904"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "outdent",
+      "result": "pass",
+      "assessment": "Rows, markers and directional marks retain their separation and identifying arrangement; no arbitrary faded line or merged marker. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/05-01.png",
+        "review/tone-after/2x/05-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "91f4bbcd05ce730c5433eeac7168a7aacb0e739161fbbfc4ff7536e405150b31"
+      },
+      "sha256": {
+        "duotone": "3f35334891aca319a6e24227b99c2ad38d046c76674c4588a79b14580d5c8134"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "paperclip",
+      "result": "pass",
+      "assessment": "Inner and outer bends remain separated; uniform path does not close the paperclip counter. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/05-02.png",
+        "review/tone-after/2x/05-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "797141e0ca0024a814ee4c0e34c88525c9c2b4246fe504f245b0084615365348"
+      },
+      "sha256": {
+        "duotone": "0aabb488d892db61f8c4c93ae47f8766837599cd78845f059425d094816e2dd3"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "plus",
+      "result": "pass",
+      "assessment": "Both intersecting bars are uniformly opaque with a clean intersection. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/01-03.png",
+        "review/tone-after/2x/01-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "5ed62c9e418fc93f71ea9d28cacd889bce4cc5394e75b2bf43b3f037b33c9629"
+      },
+      "sha256": {
+        "duotone": "644cf6432520b2bc5d57d29d819c07675c2aebb74310cca190b8d7787d8fc397"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "podcast",
+      "result": "pass",
+      "assessment": "Outer ring, central head and presenter stem are uniformly opaque; head-to-ring separation and lower silhouette remain readable. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/12-01.png",
+        "review/tone-after/2x/12-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "7b72709d96eb05df98d2bdb4fd1e5b20b72201063174c8767468446fac516366"
+      },
+      "sha256": {
+        "duotone": "5ed6a30a784e650d4532301d08dd5a0837b9eb41d0018018c9bb65ede2574a8f"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "power",
+      "result": "pass",
+      "assessment": "Ring and upright have uniform contrast; top ring opening and vertical stroke remain distinct at every size. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/16-03.png",
+        "review/tone-after/2x/16-03.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "5e2811f0e01c09d8ba9a7524835369f6ac142dc9e6fd0ce9108880744efb9434"
+      },
+      "sha256": {
+        "duotone": "6af99309db2b506d0aafbf152c184bfc4f074c48c6ef24d0780f9686ef43bc7b"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "quote",
+      "result": "pass",
+      "assessment": "Both quote marks retain matching filled heads and separate tails. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/05-02.png",
+        "review/tone-after/2x/05-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "e7f7f201d11deb8485a859a815d12c6ee141d4f7d6b3f670b758e73e37cf8d75"
+      },
+      "sha256": {
+        "duotone": "fc417d3c48f3c7235b556bb26014753ef92d717e03f50993e9a3e1bca14643a4"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "recycle",
+      "result": "pass",
+      "assessment": "All three arrow segments are uniformly opaque; direction and spaces between arrows remain readable. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/18-01.png",
+        "review/tone-after/2x/18-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "cd973a6c8e391c84eeb7b075da8c3a1ab84dd3924f228cf4808c28d1ecc7fd6b"
+      },
+      "sha256": {
+        "duotone": "c635ab3b65b705f6d7801a90aba9b9a5fa3dceb4aeb44d155fad206ac61afedb"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "redo",
+      "result": "pass",
+      "assessment": "Curved or rectangular movement paths and arrowheads now share uniform contrast; every path remains complete and recognizable without a new filled interior or missing head. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "402553c405e583bdd155b857db71a1b0f05a364bada4df36f1b8bf252667c599"
+      },
+      "sha256": {
+        "duotone": "a30346f3801cb876022d713553e6a03e600eba7ad2460b0cb83f5386fb9f7803"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "refresh",
+      "result": "pass",
+      "assessment": "Curved or rectangular movement paths and arrowheads now share uniform contrast; every path remains complete and recognizable without a new filled interior or missing head. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "34c91e99564d9c9db3d643904ebf462b3f7a4d799eae7bc33bb6259f96ebe09c"
+      },
+      "sha256": {
+        "duotone": "d339b18736f3af8df5e62d2027c2fb6d341aa116b468f8b17a28526656b450f5"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "repeat",
+      "result": "pass",
+      "assessment": "Curved or rectangular movement paths and arrowheads now share uniform contrast; every path remains complete and recognizable without a new filled interior or missing head. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "4c8b93ca3d81bbc34a7212c6a425d96e4ed2f8f0690e5095eeb1868e71a8c52a"
+      },
+      "sha256": {
+        "duotone": "0747628c006e729fb6a5c897745c3bb22d5aa9e1f34a31aec09fe955a403dee3"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "reset",
+      "result": "pass",
+      "assessment": "Curved or rectangular movement paths and arrowheads now share uniform contrast; every path remains complete and recognizable without a new filled interior or missing head. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "cc6474e3e733dbc779a788e1deadd8a8df5c5a93aa59d4aea34bcc473638172a"
+      },
+      "sha256": {
+        "duotone": "6b52c768740d8a441c2b0dd47db2d0c9f47a38da2cce3f089bb50d48159a4100"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "rewind",
+      "result": "pass",
+      "assessment": "Both triangular parts remain identifiable in uniform tone; point contact matches the existing geometry. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/12-02.png",
+        "review/tone-after/2x/12-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "6716f7877562c53a1071071c09cc98b730f244e1351112b6aa9b69125912a7bc"
+      },
+      "sha256": {
+        "duotone": "8ba8665cd771c27ef1c4f14159496c58247c2cbd90593b7a40f1e2c16ded711b"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "rotate-left",
+      "result": "pass",
+      "assessment": "Curved or rectangular movement paths and arrowheads now share uniform contrast; every path remains complete and recognizable without a new filled interior or missing head. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/13-02.png",
+        "review/tone-after/2x/13-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "cc6474e3e733dbc779a788e1deadd8a8df5c5a93aa59d4aea34bcc473638172a"
+      },
+      "sha256": {
+        "duotone": "6b52c768740d8a441c2b0dd47db2d0c9f47a38da2cce3f089bb50d48159a4100"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "rotate-right",
+      "result": "pass",
+      "assessment": "Circular stroke and arrowhead remain readable as one uniform mark. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/13-03.png",
+        "review/tone-after/2x/13-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "34c91e99564d9c9db3d643904ebf462b3f7a4d799eae7bc33bb6259f96ebe09c"
+      },
+      "sha256": {
+        "duotone": "d339b18736f3af8df5e62d2027c2fb6d341aa116b468f8b17a28526656b450f5"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "route",
+      "result": "pass",
+      "assessment": "Winding path and both endpoint dots have uniform opacity with the complete curve preserved. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/11-01.png",
+        "review/tone-after/2x/11-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "50500f134dc8e2c093fb910b9db4f128cf9e1121732dd544470816e3435d46f3"
+      },
+      "sha256": {
+        "duotone": "8952f85baa41bc90786d6428afdefdb6d83051f09842dd906a31e9c6e1ab9f80"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "rss",
+      "result": "pass",
+      "assessment": "Both signal arcs and origin dot are uniformly opaque and remain separate. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/04-02.png",
+        "review/tone-after/2x/04-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "4c252022e0a3e7c74c234a0f70903b686a8adee421227d6270ebbe9a99691fee"
+      },
+      "sha256": {
+        "duotone": "13e6fa1d7c452d7f27345a246edb75494f74f3dd845f0b7fb0194bbd8c79f5d3"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "scissors",
+      "result": "pass",
+      "assessment": "Both handle holes remain open and the blades retain their full crossing silhouette. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/05-02.png",
+        "review/tone-after/2x/05-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "a2f17ae9583d243869d0e3c9de6aa21203614d1d532c15960e4039f336818e5b"
+      },
+      "sha256": {
+        "duotone": "3dcfc87883a87313ba84c780799eaa18615134ebbbc566ad0f78c2578d4f44ee"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "shuffle",
+      "result": "pass",
+      "assessment": "Both crossing routes and both arrowheads remain readable; intersection remains the existing geometry. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/13-03.png",
+        "review/tone-after/2x/13-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "53cfb2797b9292ae502df2287fefc1bd22ba2c87d8fa342ab37bf02796cfafc8"
+      },
+      "sha256": {
+        "duotone": "fd3eea80382d89c97583f1d30d8f708b9fb5ecdc16343b332518ecd6a94144ab"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "skip-back",
+      "result": "pass",
+      "assessment": "Triangle and vertical stop remain clearly separated. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/12-02.png",
+        "review/tone-after/2x/12-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "3cd34ecb4b16f6761dda83b1136c92a14f0e899fc374e83ab427cab254972148"
+      },
+      "sha256": {
+        "duotone": "ced0871c65015f24c8eccb09cf89719adf8105927bdcbaacf782ec5112cd2008"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "skip-forward",
+      "result": "pass",
+      "assessment": "Triangle and vertical stop remain clearly separated. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/12-02.png",
+        "review/tone-after/2x/12-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "fa9e334669b346c60706d9140043679de3bb5913356b8d83c27f00787993b5a3"
+      },
+      "sha256": {
+        "duotone": "40b5c8613728aad53170ea4ae53ccda613da5f515a5723bceb196bc497b1f3c5"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "sliders",
+      "result": "pass",
+      "assessment": "All three rails and control knobs have consistent opaque weight; intersections remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/01-03.png",
+        "review/tone-after/2x/01-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "7a05675ced1ae3c935db64833be23dd914029c6804af03c703c7d1b07b5bba26"
+      },
+      "sha256": {
+        "duotone": "7a79b90e848ef3d73cf28a4ae26962eed76f0f6d1f4795c1d449622b9d523245"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "snowflake",
+      "result": "pass",
+      "assessment": "Six arms and branch details are uniformly opaque; full radial geometry remains visible with no new ambiguous merge relative to baseline. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/18-01.png",
+        "review/tone-after/2x/18-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "7d7f4a8b28cd3981d6c9784dee214151a286bc5e1996ddbe7cf98ebe63e873c3"
+      },
+      "sha256": {
+        "duotone": "0192ad30262ebb679f60e6371217d757ee09feed3ec53a3f7678bbfe2ed4df1d"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "sort-ascending",
+      "result": "pass",
+      "assessment": "Ascending bars and upward arrow are uniformly opaque and stay visibly separate. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/01-03.png",
+        "review/tone-after/2x/01-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "b07c3b37d9043ec9f48622deae0e0fc9d18662e783e8112e779af4ff5e3c29f2"
+      },
+      "sha256": {
+        "duotone": "7ab620fa92ca395d01c59649cec4d60f7429a6032b270c8dcbbb8ddc3bd4246d"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "sort-descending",
+      "result": "pass",
+      "assessment": "Descending bars and downward arrow are uniformly opaque and stay visibly separate. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/01-03.png",
+        "review/tone-after/2x/01-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "7d8ee036d862ad778115fc40460a18d759771c5c12d0029fe0e03fe393c948b8"
+      },
+      "sha256": {
+        "duotone": "5daf002304d4afa83730941ccea40f686b14f77a6461bd7ce1c2812bc527d634"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "spinner",
+      "result": "pass",
+      "assessment": "Entire open circular arc is uniformly opaque; both arc ends and the open gap remain visible at all sizes/tints. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/16-03.png",
+        "review/tone-after/2x/16-03.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "fb3d640e67e9884573482e771e2280077279e6718d2514bcb8eb64444c14e67a"
+      },
+      "sha256": {
+        "duotone": "522cfa57f41559f247b4dad4b74893be1321ca837023fb3059087a5586457adb"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "ssh",
+      "result": "pass",
+      "assessment": "Corner brackets and arrow share opacity; all three elements remain separated and the arrowhead remains clear. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/16-03.png",
+        "review/tone-after/2x/16-03.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "fa9f88b0f78f609faf6a9e078e6a1e5126082a402d28ce5ab52716353aacf2b9"
+      },
+      "sha256": {
+        "duotone": "c0c9d8b2cffb739cccf83b3d04d4747ee5faa949aa8da3bd8ee53410ef755911"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "stethoscope",
+      "result": "pass",
+      "assessment": "Earpieces, tube and chestpiece are uniformly opaque; tube loop and chestpiece opening survive. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/08-01.png",
+        "review/tone-after/2x/08-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "8aea4a20b4751b6426f3f015e81cfec598194de89eef3e8ce646c6118248cce8"
+      },
+      "sha256": {
+        "duotone": "2dfef256731005c05436086ddf94ba44defcd17251debe9580ecca0313545cb7"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "strikethrough",
+      "result": "pass",
+      "assessment": "Letter curves and strike remain readable with uniform opacity; no new filled region. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/05-02.png",
+        "review/tone-after/2x/05-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "a0d69f5e417e5b9ffe0300680ca08a812f5d21c02910d209e4ded8b7b807b7a7"
+      },
+      "sha256": {
+        "duotone": "2e1aa11945be9829aa864b8242408ce7add892ba66723a2b17be344d43d9b3ed"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "swap-horizontal",
+      "result": "pass",
+      "assessment": "Two opposing arrows remain separated with equal emphasis. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/13-03.png",
+        "review/tone-after/2x/13-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "9cfe8b0f2439e7e4e355041d8e6148c9ef422fd888b6bb56b66a02fad1ac94da"
+      },
+      "sha256": {
+        "duotone": "a77ac34b3345e121bd5fa6a1470d42a39ceee4b9094b6a453632664aa4c0f393"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "swap-vertical",
+      "result": "pass",
+      "assessment": "Two opposing arrows remain separated with equal emphasis. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/13-03.png",
+        "review/tone-after/2x/13-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "1d7d3071a622a2d591b28b1c097ed8f72d0827aefe6d6a3cab9a1028be7ded09"
+      },
+      "sha256": {
+        "duotone": "3de997642be2a34771890530f4872fa06a05084e95468c5a9c4fdc4d63dbd1e2"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "text-size",
+      "result": "pass",
+      "assessment": "Both text-size marks remain separate and equally emphasized. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/05-02.png",
+        "review/tone-after/2x/05-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "9b9c0dac29eb99b2945ea16977631eeba14f2df5bbeb795d43d4277c9f4c04e4"
+      },
+      "sha256": {
+        "duotone": "5ea560e2e6592ec252354df0446068518d17d95df4a5249fa0852836650e5ec8"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "trending-down",
+      "result": "pass",
+      "assessment": "Final rerender inspected after endpoint/head moved to (13,11.5). Default, Solid, and Stroke all retain a visible background gap between the down-arrow terminal and baseline at 16/24/32 points, in light and dark, at both 1x and 2x. The arrowhead now reads separately from the axis and its lower horizontal head stroke stays distinct above the baseline. This confirms correction of the promoted baseline collision only; not general design approval.",
+      "evidence": [
+        "review/tone-after/1x/03-01.png",
+        "review/tone-after/2x/03-01.png",
+        "Final images viewed with view_image detail=original after correction; inspected all three styles, three sizes, both backgrounds, both densities.",
+        "Prior collision compared with review/strict-2026-11-11/2x/03-01.png; corrected terminal now has visible baseline clearance."
+      ],
+      "beforeSha256": {
+        "duotone": "08558f301aa1c064208ede4b0fe449632e2e86043e171058fc4a6439ff02d1e7",
+        "solid": "666a547a2b5b05e810a492cc703aa538b60efd5b2806f377fc36cbf59b8bc3c8",
+        "stroke": "666a547a2b5b05e810a492cc703aa538b60efd5b2806f377fc36cbf59b8bc3c8"
+      },
+      "sha256": {
+        "duotone": "cb7e2915d4e126a2777fb8f5e4e03d0ee501b8842b787466ffdca05e20216dc2",
+        "solid": "cb7e2915d4e126a2777fb8f5e4e03d0ee501b8842b787466ffdca05e20216dc2",
+        "stroke": "cb7e2915d4e126a2777fb8f5e4e03d0ee501b8842b787466ffdca05e20216dc2"
+      },
+      "styles": [
+        "duotone",
+        "solid",
+        "stroke"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "trending-up",
+      "result": "pass",
+      "assessment": "Rising zigzag and upward arrowhead remain clear above the now-opaque axes; existing lower-left attachment does not erase the trend. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/03-01.png",
+        "review/tone-after/2x/03-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "9c4bb76afe70e548e3f1270c5e9db34e04ae97165c5eb1545876a04550a75003"
+      },
+      "sha256": {
+        "duotone": "3d3fbf98002872c7f7f56d9e6e19f693ff1a45f77d2e524c8edc44929bc8e4ea"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "underline",
+      "result": "pass",
+      "assessment": "U counter and gap above the underline remain open. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/05-02.png",
+        "review/tone-after/2x/05-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "9a55379d6fcee5cb1bb6b1b5f9f78cf06df30d65a7c036b15243e11a9e199381"
+      },
+      "sha256": {
+        "duotone": "51cb2d866223700868af44acf7ee397c4bef2def7fc4a91ec7fe68a332f573df"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "undo",
+      "result": "pass",
+      "assessment": "Curved return and arrowhead form one clear uniform mark. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/13-03.png",
+        "review/tone-after/2x/13-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "6234651a18f21cdb94d335c1498203954a94b9dbc8a3a63b1a4c37b7bb298038"
+      },
+      "sha256": {
+        "duotone": "349df740221007ba3b4baa6ecda270d03239dd41b3215be6a8c91def0eb0ba5c"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "unlink",
+      "result": "pass",
+      "assessment": "Broken chain curves and separation marks remain distinct with uniform opacity. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/01-03.png",
+        "review/tone-after/2x/01-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "68b99af1685b847ca918144fa613f1cec1395c98748f488b276092d6d65028e5"
+      },
+      "sha256": {
+        "duotone": "3cdd9595e8f5d0ab9babf5ada96766660836072662d597b25dcc38bd5ac3b630"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "upload",
+      "result": "pass",
+      "assessment": "Arrow shaft, arrowhead and tray remain complete and uniformly opaque; tray gap remains open. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/01-03.png",
+        "review/tone-after/2x/01-03.png"
+      ],
+      "beforeSha256": {
+        "duotone": "8cf55dbfba807859c4f334a156a4158d4f9abc123ebfd66aad159a96f61c30b8"
+      },
+      "sha256": {
+        "duotone": "5246301e8409e0a19dc131acde971b8dca746fd509d4512506586dd8ea91b551"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "utensils",
+      "result": "pass",
+      "assessment": "Fork and knife now have equal opacity; fork tine gaps, handle and the gap between utensils remain visible at both densities. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/09-01.png",
+        "review/tone-after/2x/09-01.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "a63d1e5075e7e86d084bf7e14db913e41efd51b7835b645693aef54047864b8d"
+      },
+      "sha256": {
+        "duotone": "ddb5da069395b53a42c7fda2c9250127ec6807bbe94834fda76b87c491b73312"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "waveform",
+      "result": "pass",
+      "assessment": "All five bars remain distinct; central bar has no artificial tonal segment. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/12-02.png",
+        "review/tone-after/2x/12-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "d7b9f98af43fdb9e338ac10884346fe8280bbc9e2f1cac1bca7496d23ccb4e5a"
+      },
+      "sha256": {
+        "duotone": "6df99d253154a36c22f8d76326f219137971f28c1ccdb70398971af8ee081ab4"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "wheelchair",
+      "result": "pass",
+      "assessment": "Head, seated figure, chair and wheel are uniformly opaque; wheel opening and foot extension remain clear. Tone-only pass at 16, 24 and 32 px on light and dark backgrounds, at both 1x and 2x; existing design-audit defects remain outside this assessment.",
+      "evidence": [
+        "review/tone-after/1x/14-01.png",
+        "review/tone-after/2x/14-01.png"
+      ],
+      "beforeSha256": {
+        "duotone": "bf89a2d90ca2caa1e425638071f972e26fc7d3848640ac6362d00b818794c317"
+      },
+      "sha256": {
+        "duotone": "1e0ed1a4d0d1f5dcbd99d5b77d24b090376d5d7b4801c0a318c4b6961062d145"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "wifi",
+      "result": "pass",
+      "assessment": "All arcs and terminal dot retain separation in uniform tone. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/16-04.png",
+        "review/tone-after/2x/16-04.png"
+      ],
+      "beforeSha256": {
+        "duotone": "3010dbbd9bc1dcbcc42672db7a0279659513880f615add2794e0e9c528d03219"
+      },
+      "sha256": {
+        "duotone": "9349e4cf94f9fd66be53557defb31a00dde9e21dbe2dbf8c66b1b7dc4b3199ba"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "wifi-off",
+      "result": "pass",
+      "assessment": "Arcs, terminal dot and slash remain distinct; slash clearance preserves readability. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/16-04.png",
+        "review/tone-after/2x/16-04.png"
+      ],
+      "beforeSha256": {
+        "duotone": "a5573a7de47f3ae5de35d0b60a5bac8ef4911b62681d3366ada5e7591d1ad615"
+      },
+      "sha256": {
+        "duotone": "937870c80d67d6791f2529e0521929b4a76a7f942bee1f57ccd1bf35da7e5509"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "wind",
+      "result": "pass",
+      "assessment": "All three air paths have equal contrast; curl counters and inter-path gaps remain visible in all six default cells. Tone-only review; this does not approve unrelated pre-existing design defects.",
+      "evidence": [
+        "review/tone-after/1x/18-02.png",
+        "review/tone-after/2x/18-02.png",
+        "Inspected with view_image detail=original; default/duotone row cells at 16, 24, 32 points in light and dark."
+      ],
+      "beforeSha256": {
+        "duotone": "52529b94b659d267599c0562edca3af005fc9d08718f3aeff6a73b8a12aca4e4"
+      },
+      "sha256": {
+        "duotone": "88d2bc394d81c97eba359609aa6e72289b90ab6599f364a3daed344dddcd31a2"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    },
+    {
+      "name": "wrap",
+      "result": "pass",
+      "assessment": "Horizontal lines, return curve and arrowhead remain legible without lost geometry. Inspected default at 16/24/32 on light and dark, both 1x and 2x; tone-only approval.",
+      "evidence": [
+        "review/tone-after/1x/05-02.png",
+        "review/tone-after/2x/05-02.png"
+      ],
+      "beforeSha256": {
+        "duotone": "1b3f4af965332d8b0c2e858e66a63393a8bd9e303d4a87e9982822bb4db91a47"
+      },
+      "sha256": {
+        "duotone": "c8a9b892bf3e5f4816dfcb8ce2750853db957d1662e3918abeaf54767c680730"
+      },
+      "styles": [
+        "duotone"
+      ],
+      "defaultTone": "monochrome"
+    }
+  ]
+}

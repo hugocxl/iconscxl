@@ -1,5 +1,9 @@
 # Artwork review — 10 November 2026
 
+> Historical review. The [stricter 11 November audit](DESIGN-AUDIT-2026-11-11.md)
+> supersedes the all-approved design conclusion below and records remaining defects.
+> The [selective-duotone follow-up](TONE-REVIEW.md) records the later tone correction.
+
 The full delivered set was visually inspected: **550 names, 1,488 SVGs**, including
 all supported Duotone, Solid and Stroke variants. Each row shows **16, 24 and 32
 points on light and dark backgrounds**, rendered with AppKit at 2× resolution.

@@ -64,7 +64,11 @@ for item in catalog:
         for x0,y0,x1,y1 in bounds:
             assert x0>=-.015 and y0>=-.015 and x1<=view[2]+.015 and y1<=view[3]+.015, f'{p}: clipped geometry {(x0,y0,x1,y1)}'
         if style=='duotone':
-            assert any(0<a<1 for a in alphas) and 1 in alphas, f'{p}: missing tone layer'
+            assert item['defaultTone'] in {'duotone','monochrome'}, f'{p}: missing tone decision'
+            if item['defaultTone']=='duotone':
+                assert any(0<a<1 for a in alphas) and 1 in alphas, f'{p}: missing surface tone layer'
+            else:
+                assert alphas=={1}, f'{p}: single-tone symbol contains a faded segment'
         else: assert alphas=={1},f'{p}: monochrome style contains opacity'
         count+=1
 for style in ['solid','stroke']:

@@ -7,8 +7,9 @@ they apply to retained brand artwork, not the new rounded UI family.
 
 ## Authoring original UI artwork
 
-Use `draw.py`: define a closed body with `shape`, or a secondary/primary linear
-composition with `glyph`. Use `rr`, `circle`, `path`, `line`, and `stroke` helpers.
+Use `draw.py`: define a closed body with `shape`, or a linear composition with `glyph`. Linear glyphs default to one opaque tint;
+never split a continuous mark into faded and primary pieces. Only a documented
+foreground/background surface exception in `DUOTONE_GLYPHS` may use two tones. Use `rr`, `circle`, `path`, `line`, and `stroke` helpers.
 Related icons should share a base and use deliberate identifying details. Do not
 increase the count with arbitrary badge combinations or change a symbol's
 meaning simply to reuse a drawing.
@@ -38,7 +39,9 @@ third-party packages. Canonical SVGs are checked in.
 - Expanded filled contours; no strokes, masks, filters, gradients, text, IDs,
   CSS, or external references. No background-colored cutouts.
 - Canonical alphabetic attributes, two-space indentation, one path per line.
-- `icons/NAME.svg` is Duotone. Other drawings live in
+- `icons/NAME.svg` is the selective-Duotone default, including fully opaque
+  linear symbols. `catalog.json` declares `defaultTone`; two tones are allowed
+  only when they describe surfaces/depth. Other drawings live in
   `icons/styles/STYLE/NAME.svg`; `catalog.json` declares actual availability.
 - Preserve upstream notices when adapting brands. Do not import proprietary
   reference artwork into this open library.

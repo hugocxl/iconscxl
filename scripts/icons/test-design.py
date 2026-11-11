@@ -46,12 +46,47 @@ class DesignRegressionTests(unittest.TestCase):
                 diff=art.op(art.mirror(ink(left,style)),ink(right,style),art.po.PathOp.XOR)
                 self.assertLess(diff.area,.015,(left,right,style))
 
-    def test_rotation_secondary_arc_survives_boolean_composition(self):
-        # Previously a valid nonempty SVG lost almost its entire secondary arc.
+    def test_rotation_arc_survives_without_a_faded_segment(self):
+        # Previously a valid nonempty SVG lost almost its entire rotation arc.
+        # The arc is now uniformly opaque, rather than a secondary tone.
         for name in ['refresh','reset','rotate-left','rotate-right']:
-            secondary=art.union(*(p for p,a in layers(name) if a<1))
-            self.assertGreater(secondary.area,25,name)
-            self.assertGreater(secondary.bounds[3]-secondary.bounds[1],9,name)
+            source=layers(name)
+            self.assertTrue(all(a==1 for p,a in source),name)
+            shape=art.union(*(p for p,a in source))
+            self.assertGreater(shape.area,25,name)
+            self.assertGreater(shape.bounds[3]-shape.bounds[1],9,name)
+
+    def test_linear_symbols_never_split_a_continuous_mark_into_tones(self):
+        for name,(body,detail,outlined,*_) in art.DRAWINGS.items():
+            if not outlined and name not in art.DUOTONE_GLYPHS:
+                self.assertTrue(all(a==1 for p,a in layers(name)),name)
+        # These examples define the public design rule, independently of the
+        # recipe's outline flag or exception classification.
+        for name in ['arrow-up','chevron-down','chevrons-right','minus','plus',
+                     'close','check','hash','menu','wifi','bluetooth','paperclip']:
+            self.assertTrue(all(a==1 for p,a in layers(name)),name)
+
+    def test_surface_depth_remains_in_pencil_trash_and_layers(self):
+        for name in ['pencil','trash','layers']:
+            alpha={a for p,a in layers(name)}
+            self.assertIn(1,alpha,name)
+            self.assertTrue(any(0<a<1 for a in alpha),name)
+
+    def test_monochrome_donut_keeps_its_sector_dividers(self):
+        self.assertTrue(all(a==1 for p,a in layers('chart-donut')))
+        shape=ink('chart-donut','duotone')
+        for gap in [(8,3),(13,8),(8,8)]:
+            self.assertFalse(shape.contains(gap),gap)
+        for segment in [(5,4),(12,5),(8,13)]:
+            self.assertTrue(shape.contains(segment),segment)
+
+    def test_downward_trend_arrowhead_clears_the_baseline(self):
+        # Removing opacity must not merge the down-arrow into the chart axis.
+        for style in ['duotone','solid','stroke']:
+            shape=ink('trending-down',style)
+            self.assertFalse(shape.contains((12,12.7)),style)
+            self.assertTrue(shape.contains((12,11.5)),style)
+            self.assertTrue(shape.contains((12,14)),style)
 
     def test_structural_solid_connections_do_not_turn_into_cutout_fragments(self):
         for name in ['lock','trophy','network','workflow','watch','calendar','cpu','bug','signpost']:

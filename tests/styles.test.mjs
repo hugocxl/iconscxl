@@ -16,7 +16,9 @@ test('catalog exhaustively describes default artwork and available styles',async
  for(const item of catalog){
   assert.ok(item.category && item.origin);
   const svg=readFileSync(`icons/${item.name}.svg`,'utf8');
-  assert.match(svg,/opacity="(?:0?\.\d+)"/,item.name+' must be duotone');
+  assert.ok(['duotone','monochrome'].includes(item.defaultTone));
+  if(item.defaultTone==='duotone') assert.match(svg,/opacity="(?:0?\.\d+)"/,item.name+' must retain its surface tone');
+  else assert.doesNotMatch(svg,/opacity="(?:0?\.\d+)"/,item.name+' must not split its tone');
  }
 });
 test('each style resolves and preserves all SVG geometry and React accessibility',async()=>{

@@ -16,6 +16,12 @@ from fontTools.pens.svgPathPen import SVGPathPen
 
 ROOT = Path(__file__).resolve().parents[2]
 DRAWINGS = {}
+# A second tone must describe a surface at a different depth, never an
+# arbitrary half of a line. Linear drawings are opaque unless justified here.
+DUOTONE_GLYPHS = {
+    'layers': 'Receding lower plane behind the foreground sheet.',
+}
+SINGLE_TONE_SHAPES = {'chart-donut'}
 CATEGORY = ''
 BOOLEAN_REPAIRS=[]
 def op(a,b,kind):
@@ -386,7 +392,7 @@ shape('sparkles',path('M6 3.5Q6.8 8.2 11.5 9Q6.8 9.8 6 14.5Q5.2 9.8 .5 9Q5.2 8.2
 shape('zap',path('M9 1L2 9H7L6 15 14 6H9Z'))
 
 CATEGORY='Charts and analytics'
-for name,detail in [('chart-bar',union(rr(3,8,2.5,5,.5),rr(7,4,2.5,9,.5),rr(11,6,2.5,7,.5))),('chart-line',line((3,11),(6,7),(9,9),(13,4))),('chart-area',poly([(3,12),(3,10),(6,6),(9,8),(13,3),(13,12)])),('trending-up',lines('M2 12L6 8 9 10 14 3','M10 3H14V7')),('trending-down',lines('M2 4L6 8 9 6 14 13','M10 13H14V9'))]: glyph(name,lines('M2 2V14H14'),detail)
+for name,detail in [('chart-bar',union(rr(3,8,2.5,5,.5),rr(7,4,2.5,9,.5),rr(11,6,2.5,7,.5))),('chart-line',line((3,11),(6,7),(9,9),(13,4))),('chart-area',poly([(3,12),(3,10),(6,6),(9,8),(13,3),(13,12)])),('trending-up',lines('M2 12L6 8 9 10 14 3','M10 3H14V7')),('trending-down',lines('M2 4L6 8 9 6 13 11.5','M9 11.5H13V7.5'))]: glyph(name,lines('M2 2V14H14'),detail)
 shape('chart-pie',circle(),stroke('M8 2V8H14'))
 shape('chart-donut',ring(8,8,6,2.5),path('M8 2A6 6 0 0 1 14 8H10.5A2.5 2.5 0 0 0 8 5.5Z'))
 shape('activity',WINDOW,line((1.5,8),(5,8),(7,4),(9,12),(11,8),(14.5,8)))
@@ -630,7 +636,13 @@ def main():
         # Filled bodies carry the secondary tone; contours and identifying
         # details share the primary tone. Union prevents opacity stacking.
         boundary=op(outer,d,po.PathOp.DIFFERENCE) if outer else po.Path()
-        duo=[(op(b,union(boundary,d),po.PathOp.DIFFERENCE),.24),(union(boundary,d),1)] if outline else [(op(b,d,po.PathOp.DIFFERENCE),.4),(d,1)]
+        two_tones = (outline and name not in SINGLE_TONE_SHAPES) or name in DUOTONE_GLYPHS
+        if outline and two_tones:
+            duo=[(op(b,union(boundary,d),po.PathOp.DIFFERENCE),.24),(union(boundary,d),1)]
+        elif two_tones:
+            duo=[(op(b,d,po.PathOp.DIFFERENCE),.4),(d,1)]
+        else:
+            duo=[(union(b,d,outer),1)]
         mono=union(outer,d) if outline else union(b,d)
         # Large closed detail regions need their own contour in Stroke; a
         # filled basket or folder flap would otherwise hide the interior.
@@ -669,12 +681,12 @@ def main():
             knife=path('M13.5 1.5C10 1.5 9.5 5 9.5 8H13.5Z')
             mono=union(b,stroke(knife,1.2),line((13.5,8),(13.5,14.5)))
         if name == 'chart-donut':
-            # Preserve the central aperture in every style. The quarter segment
-            # is a filled annular sector, not a second opaque disc.
+            # Preserve the central aperture and quarter-sector divisions.
             annulus=op(circle(8,8,6),circle(8,8,3.3),po.PathOp.DIFFERENCE)
-            sector=op(annulus,rr(8,1,7,7,.01),po.PathOp.INTERSECTION)
-            duo=[(op(annulus,sector,po.PathOp.DIFFERENCE),.3),(sector,1)]
             solid=op(annulus,lines('M8 1.5V4.7','M11.3 8H14.5'),po.PathOp.DIFFERENCE)
+            # Sector color is data encoding, not surface depth. Keep the
+            # divisions explicit as gaps instead of splitting a ring's tone.
+            duo=[(solid,1)]
             mono=union(stroke(circle(8,8,6),1.1),stroke(circle(8,8,3.3),1.1),lines('M8 2V4.7','M11.3 8H14'))
         if name == 'lungs':
             solid=union(op(union(b,outer),stroke('M5 9L7 7M9 7L11 9',1.1),po.PathOp.DIFFERENCE),line((8,1),(8,6)))
@@ -714,7 +726,7 @@ def main():
             'stroke':[(mono,1)],
         }.items():
             write(Path('icons/styles')/style/(name+'.svg'),svg(layers))
-        catalog.append(dict(name=name,category=category,tags=tags.split(),origin='original',styles=['duotone','solid','stroke']))
+        catalog.append(dict(name=name,category=category,tags=tags.split(),origin='original',styles=['duotone','solid','stroke'],defaultTone='duotone' if two_tones else 'monochrome'))
     brands=json.loads((ROOT/'scripts/icons/brands.json').read_text())
     actual={p.stem for p in (ROOT/'icons').glob('*.svg')}
     unknown=actual-set(DRAWINGS)-set(brands)
@@ -727,7 +739,7 @@ def main():
         r=ET.parse(file).getroot()
         if not any(0<float(n.get('opacity','1'))<1 for n in r.iter()):
             failed.append('Unreviewed single-tone icon: '+file.stem)
-        catalog.append(dict(name=file.stem,category='Brands',tags=[],origin='legacy',styles=['duotone']))
+        catalog.append(dict(name=file.stem,category='Brands',tags=[],origin='legacy',styles=['duotone'],defaultTone='duotone'))
     write(Path('catalog.json'),json.dumps(sorted(catalog,key=lambda i:i['name']),indent=2)+'\n')
     if failed:sys.exit('\n'.join(failed))
     print(f'{len(DRAWINGS)} original drawings; {len(catalog)} total icons')
